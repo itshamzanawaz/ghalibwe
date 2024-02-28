@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.a {
+  height: 5000px;
+}
+.container {
+  margin-top: 2rem;
+}
+.wrapper-nav-mid {
+  margin-left: auto;
+  margin-right: auto;
+}
+.inline {
+  display: inline;
+}
+.right {
+  float: right;
+}
+.main{
+  margin-top: 15rem;
+  height: 8000px;
+  width: 100%;
+}
+#main {
+  background-image: url("../bg1.jpg");
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.bid-h1{
+  color: rgb(67, 73, 78);
+  font-size: 4rem;
+  font-weight: 700;
+}
+.materials-h5{
+  color: rgb(67, 73, 78);
+  font-size: 2rem;
+  font-weight: 500;
+  text-wrap: wrap;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.save-btn{
+  background-color: yellow;
+  width: 30rem;
+  height: 52px;
+  border-radius: 5px;
+  font-size: 22px;
+  color: rgb(77, 0, 165);
+  font-weight: 700;
+}
+.save-btn:hover{
+  background-color: rgb(63, 120, 243);
+}
+.ces-h1{
+  color: rgb(77, 0, 165);
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+@media only screen and (max-width: 800px) {
+  .bid-h1{
+    font-size: 2rem;
+  }
+  .materials-h5{
+    font-size: 1.4rem;
+  }
+  .save-btn{
+    width: 15rem;
+    font-size: 15px;
+  }
+  .ces-h1{
+    font-size: 1.1rem;
+  }
+  .ces-h1-2{
+    font-size: 1.1rem;
+  }
+}
+.ces-h1-2{
+  color: rgb(77, 0, 165);
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.tick1{
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+}
+.width-p-s6{
+  width: 70vw;
+}
+.width-button-2 {
+  width: 30rem;
+}
+.services1 {
+  width: 100%;
+  height: 10000px;
+}
+.yellow {
+  background-image: url("../bg2.jpg");
+  width: 100%;
+  height: 10rem;
+  opacity: 0.9;
+}
+.width-h1-s11{
+  width: 70%;
+}
+.blue {
+  background-image: url("../bg7.jpg");
+  width: 100%;
+  height: 10rem;
+  opacity: 0.9;
+}
+.btn-quote {
+  padding: 1.7rem;
+}
+@media only screen and (min-width: 600px) {
+  .image-tiles {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 786px) {
+  .nav-sm{
+    display: none;
+  }
+}
+.transition-height {
+  transition: height 0.5s ease; /* Adjust the duration and timing function as needed */
+}
+
+@media only screen and (max-width: 1000px) {
+  .ul-nav {
+    font-size: small !important;
+  }
+}
+@media only screen and (max-width: 786px) {
+  .ul-nav {
+    display: none !important;
+  }
+  #logo{
+    display: none;
+  }
+  .wrapper-nav-mid{
+    flex-direction: column;
+  }
+  .social{
+    margin-top: 1rem;
+    margin-bottom:  1rem;
+  }
+  
+}
+.section-7{
+  background-image: url('../bg5.jpg');
+  width: 100%;
+  height: auto;
+  padding: 10rem 0;
+  background-size: cover;
+}
+@media only screen and (max-width: 639px){
+  .section-7{
+    height: 7300px;
+  }
+}
+.wrap1{
+  width: 20rem;
+}
+#img1 {
+  background-image: url("../bg3.jpg");
+  width: 20rem;
+  height: 10rem;
+}
+#img2 {
+  background-image: url("../bg4.jpg");
+  width: 20rem;
+  height: 10rem;
+}
+#img3 {
+  background-image: url("../bg5.jpg");
+  width: 20rem;
+  height: 10rem;
+}
+.line{
+  height: 2px;
+}
+.margin{
+  padding-left: 4rem !important;
+}
+.construction-take-off{
+  background-image: url('../bg6.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100rem;
+}
+#logo.small {
+  height: 100px;
+}
