@@ -51,8 +51,8 @@ const ServicesSection4 = () => {
           cost estimating consulting company with 15 years of experience.
         </p>
       </div>
-      </div>
-      <div className="flex flex-row flex-wrap" >
+      
+      
       <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 p-4">
         <Image src={bg3} width={400} height={250} alt="Construction Image" />
         <h1 class="text-xl font-bold mt-4 text-blue-950">

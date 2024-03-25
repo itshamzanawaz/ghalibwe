@@ -93,9 +93,9 @@ const ServicesSection7 = () => {
           the plans with essential standards.
         </p>
       </div>
-      </div>
+     
       
-    <div className="flex flex-wrap justify-center items-center">
+  
       
       <div className="flex flex-col w-72 bg-white py-10 px-4 m-4 space-y-8">
         <div className="flex justify-center items-center">

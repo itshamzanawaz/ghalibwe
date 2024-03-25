@@ -8,7 +8,7 @@ const ServicesSection10 = () => {
         Recent Projects
       </h1>
       <div className="bg-amber-500 mx-10 w-14 h-1 mb-16"></div>
-      <div className="m-2 flex flex-wrap">
+      <div className="m-2 flex flex-wrap justify-center items-center align-middle">
         <div className="ml-4">
           <Image
             src={bg3}
@@ -53,8 +53,7 @@ const ServicesSection10 = () => {
             Education Construction Project
           </h1>
         </div>
-      </div>
-      <div className="m-2 flex flex-wrap">
+      
         <div className="ml-4">
           <Image
             src={bg3}

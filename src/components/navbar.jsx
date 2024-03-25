@@ -56,7 +56,22 @@ const Navbar = () => {
   });
   
 
-  
+  const LinksList = [{
+    href:'/',title: 'Home'
+  },
+  {
+    href:'/Services',title: 'Services'
+  },{
+    href:'/OurTrades',title: 'Our Trades'
+  },{
+    href:'/Pricing',title: 'Pricing'
+  },{
+    href:'/Samples',title: 'Samples'
+  },{
+    href:'/About',title: 'About Us'
+  },{
+    href:'/Contact',title: 'Contact'
+  }]
   
   return (
     <>
@@ -96,9 +111,12 @@ const Navbar = () => {
           </div>
 
           <ul className="bg-slate-500 ul-nav flex flex-row w-full h-auto md:h-12 text-white justify-center lg:space-x-5 items-center">
-          <Link className={classnames({
+         {
+          LinksList.map((link)=>{
+            return(
+<Link key={link.hre} className={classnames({
             'nav-link': true,
-            '!bg-amber-400': '/' === currentPath,
+            '!bg-amber-400': `${link.href}` === currentPath,
             'hover:!bg-amber-400': true,
             'hover:text-slate-800': true,
             'items-center': true,
@@ -106,82 +124,11 @@ const Navbar = () => {
             'h-12': true,
             'px-6': true,
             'text-center': true
-          })} href={'/'}>Home</Link>
-          <Link className={classnames({
-            'nav-link': true,
-            '!bg-amber-400': '/services' === currentPath,
-            'hover:bg-amber-400': true,
-            'hover:text-slate-800': true,
-            'items-center': true,
-            'flex': true,
-            'h-12': true,
-            'px-6': true,
-            'text-center': true
-          })} href={'/services'}>Services</Link>
-          {/* Add more links as needed */}
-          <Link className={classnames({
-            'nav-link': true,
-            '!bg-amber-400': '/contact' === currentPath,
-            'hover:bg-amber-400': true,
-            'hover:text-slate-800': true,
-            'items-center': true,
-            'flex': true,
-            'h-12': true,
-            'px-6': true,
-            'text-center': true
-          })} href={'/contact'}>Contact</Link>
-          <Link className={classnames({
-            'nav-link': true,
-            '!bg-amber-400': '/contact' === currentPath,
-            'hover:bg-amber-400': true,
-            'hover:text-slate-800': true,
-            'items-center': true,
-            'flex': true,
-            'h-12': true,
-            'px-6': true,
-            'text-center': true
-          })} href={'/contact'}>Contact</Link><Link className={classnames({
-            'nav-link': true,
-            '!bg-amber-400': '/contact' === currentPath,
-            'hover:bg-amber-400': true,
-            'hover:text-slate-800': true,
-            'items-center': true,
-            'flex': true,
-            'h-12': true,
-            'px-6': true,
-            'text-center': true
-          })} href={'/contact'}>Contact</Link><Link className={classnames({
-            'nav-link': true,
-            '!bg-amber-400': '/contact' === currentPath,
-            'hover:bg-amber-400': true,
-            'hover:text-slate-800': true,
-            'items-center': true,
-            'flex': true,
-            'h-12': true,
-            'px-6': true,
-            'text-center': true
-          })} href={'/contact'}>Contact</Link><Link className={classnames({
-            'nav-link': true,
-            '!bg-amber-400': '/contact' === currentPath,
-            'hover:bg-amber-400': true,
-            'hover:text-slate-800': true,
-            'items-center': true,
-            'flex': true,
-            'h-12': true,
-            'px-6': true,
-            'text-center': true
-          })} href={'/contact'}>Contact</Link><Link className={classnames({
-            'nav-link': true,
-            '!bg-amber-400': '/contact' === currentPath,
-            'hover:bg-amber-400': true,
-            'hover:text-slate-800': true,
-            'items-center': true,
-            'flex': true,
-            'h-12': true,
-            'px-6': true,
-            'text-center': true
-          })} href={'/contact'}>Contact</Link>
-        </ul>
+          })} href={link.href}>{link.title}</Link>
+            )
+          })
+         }
+          </ul>
           <div className="w-full h-8 bg-slate-600 flex justify-between items-center px-5 nav-sm">
             <button onClick={()=>{setIsOpen(!isOpen)}}>Menu</button>
             <img src="logo" alt="logo" className="logo-mobile"/>
