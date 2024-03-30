@@ -256,7 +256,7 @@ const Navbar = () => {
             </ul></li>
             <li className="parent"><Link href={'/'}>Samples</Link></li>
             <button className="btnGet"> Get Estimates</button>
-            <li className="parent"><Link href={'/'}>Contact</Link></li>
+            <li className="parent"><Link href={'/Contact'}>Contact</Link></li>
         </ul>
 
 
@@ -351,10 +351,8 @@ const Navbar = () => {
                   
                 </ul>
               )}
-              <button className='m-2 '>Item 2</button>
-              <button className='m-2 '>Item 3</button>
-              <button className='m-2 '>Item 4</button>
-              <button className='m-2 '>Item 5</button>
+              <button className='m-2 '>Our trades</button>
+              <button className='m-2 '>About Us</button>
               {/* Add more mobile links as needed */}
             </ul>
           )}

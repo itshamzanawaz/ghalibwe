@@ -21,8 +21,51 @@
 }
 .main{
   margin-top: 15rem;
-  height: 8000px;
+  height: auto;
   width: 100%;
+}
+@media (max-width:639px) {
+  .form-width{
+    width: 100% !important;
+  }
+  .width-details{
+    width: 90% !important;
+  }
+}
+@media (min-width:640px) {
+  .width-details{
+    width: 25% !important;
+  }
+  .form-width{
+    width: 60%;
+  }
+  .width-input{
+    width: 80%;
+  }
+  
+}
+.form-width{
+  width: 65%;
+}
+.width-details{
+  width: 30%;
+}
+.width-input{
+  width: 80%;
+}
+.text-red{
+  color: red;
+
+}
+.width-upload{
+  width: 70%;
+}
+.width-contact{
+  width: 30%;
+}
+.size-map{
+  width: 80%;
+  height: 15rem;
 }
 #main {
   background-image: url("../bg1.jpg");
