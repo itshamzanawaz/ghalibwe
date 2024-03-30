@@ -15,6 +15,22 @@ import classnames from "classnames";
 const Navbar = () => {
   const currentPath = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+  const [onclickul, setOnclickul] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
+  const [nestedDropdown1, setNestedDropdown1] = useState(false);
+  const [nestedDropdown2, setNestedDropdown2] = useState(false);
+  const [nestedDropdown3, setNestedDropdown3] = useState(false);
+  const [nestedDropdown4, setNestedDropdown4] = useState(false);
+  const [nestedDropdown5, setNestedDropdown5] = useState(false);
+  const [nestedDropdown6, setNestedDropdown6] = useState(false);
+  const [nestedDropdown7, setNestedDropdown7] = useState(false);
+  const [nestedDropdown8, setNestedDropdown8] = useState(false);
+  const [nestedDropdown9, setNestedDropdown9] = useState(false);
+  const [nestedDropdown10, setNestedDropdown10] = useState(false);
+  const [nestedDropdown11, setNestedDropdown11] = useState(false);
+  const [nestedDropdown, setNestedDropdown] = useState(false);
+
+
   const [scrollPosition, setScrollPosition] = useState(0);
   const [midNavHeight, setMidNavHeight] = useState("h-36");
   useEffect(() => {
@@ -260,54 +276,85 @@ const Navbar = () => {
           </div>
 
           {isOpen && (
-            <ul className="nav-mobile w-32 bg-white rounded-md mx-4 text-center space-y-1 overflow-hidden mt-2">
+            <ul className="flex flex-col nav-mobile w-32 bg-white rounded-md mx-4 text-center space-y-1 overflow-hidden mt-2">
               {/* Mobile links */}
-              <Link
-                className={classnames({
-                  "nav-link": true,
-                  "!bg-amber-400": "/" === currentPath,
-                  "hover:!bg-amber-400": true,
-                  "hover:text-slate-800": true,
-                  "items-center": true,
-                  flex: true,
-                  "px-6": true,
-                  "text-center": true,
-                })}
-                href={"/"}
-              >
-                Home
-              </Link>
-              <Link
-                className={classnames({
-                  "nav-link": true,
-                  "!bg-amber-400": "/services" === currentPath,
-                  "hover:bg-amber-400": true,
-                  "hover:text-slate-800": true,
-                  "items-center": true,
-                  flex: true,
-                  "px-6": true,
-                  "text-center": true,
-                })}
-                href={"/services"}
-              >
-                Services
-              </Link>
-              {/* Add more links as needed */}
-              <Link
-                className={classnames({
-                  "nav-link": true,
-                  "!bg-amber-400": "/contact" === currentPath,
-                  "hover:bg-amber-400": true,
-                  "hover:text-slate-800": true,
-                  "items-center": true,
-                  flex: true,
-                  "px-6": true,
-                  "text-center": true,
-                })}
-                href={"/contact"}
-              >
-                Contact
-              </Link>
+              <Link href={'/'} className='m-2 '>Home</Link>
+              <Link href={'/Sample'}  className='m-2 '>Sample</Link>
+              <Link href={'/contact'} className='m-2 '>Contact</Link>
+              <Link href={'/pricing'} className='m-2 '>pricing</Link>
+
+              <button className='m-2 '  onClick={() => setDropdown(!dropdown)}>Services</button>
+              {dropdown && (
+                <ul>
+                <li>
+                    <button className='m-2 ' onClick={() => setNestedDropdown(!nestedDropdown)}>
+                      CostEstimating
+                    </button>
+                    {nestedDropdown && (
+                      <ul>
+                        <li></li>
+                        <li>Nested Subitem 2</li>
+                        <li>Nested Subitem 3</li>
+                      </ul>
+                    )}
+                  </li>
+                  <li>
+                    <button className='m-2 ' onClick={() => setNestedDropdown1(!nestedDropdown1)}>
+                      Nested Dropdown
+                    </button>
+                    {nestedDropdown1 && (
+                      <ul>
+                        <li>Nested Subitem 1</li>
+                        <li>Nested Subitem 2</li>
+                        <li>Nested Subitem 3</li>
+                      </ul>
+                    )}
+                  </li>
+                  <li>
+                    <button className='m-2 ' onClick={() => setNestedDropdown2(!nestedDropdown2)}>
+                      Nested Dropdown
+                    </button>
+                    {nestedDropdown2 && (
+                      <ul>
+                        <li>Nested Subitem 1</li>
+                        <li>Nested Subitem 2</li>
+                        <li>Nested Subitem 3</li>
+                      </ul>
+                    )}
+                  </li>
+                  <li>
+                    <button className='m-2 ' onClick={() => setNestedDropdown3(!nestedDropdown3)}>
+                      Nested Dropdown
+                    </button>
+                    {nestedDropdown3 && (
+                      <ul>
+                        <li>Nested Subitem 1</li>
+                        <li>Nested Subitem 2</li>
+                        <li>Nested Subitem 3</li>
+                      </ul>
+                    )}
+                  </li>
+                  <li>
+                    <button className='m-2 ' onClick={() => setNestedDropdown4(!nestedDropdown4)}>
+                      Nested Dropdown
+                    </button>
+                    {nestedDropdown4 && (
+                      <ul>
+                        <li>Nested Subitem 1</li>
+                        <li>Nested Subitem 2</li>
+                        <li>Nested Subitem 3</li>
+                      </ul>
+                    )}
+                  </li>
+                  <li>Services</li>
+                  <li>CostEstimating</li>
+                  
+                </ul>
+              )}
+              <button className='m-2 '>Item 2</button>
+              <button className='m-2 '>Item 3</button>
+              <button className='m-2 '>Item 4</button>
+              <button className='m-2 '>Item 5</button>
               {/* Add more mobile links as needed */}
             </ul>
           )}
