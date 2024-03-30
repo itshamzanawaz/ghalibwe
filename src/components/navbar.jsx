@@ -255,7 +255,7 @@ const Navbar = () => {
               <li><Link href="#">Magnet Toys</Link></li>
             </ul></li>
             <li className="parent"><Link href={'/'}>Samples</Link></li>
-            <button className="btnGet"> Get Estimates</button>
+            <Link href={'/get-estimate'} className="btnGet"> Get Estimates</Link>
             <li className="parent"><Link href={'/Contact'}>Contact</Link></li>
         </ul>
 
@@ -279,8 +279,8 @@ const Navbar = () => {
             <ul className="flex flex-col nav-mobile w-32 bg-white rounded-md mx-4 text-center space-y-1 overflow-hidden mt-2">
               {/* Mobile links */}
               <Link href={'/'} className='m-2 '>Home</Link>
-              <Link href={'/Sample'}  className='m-2 '>Sample</Link>
-              <Link href={'/contact'} className='m-2 '>Contact</Link>
+              <Link href={'/Samples'}  className='m-2 '>Sample</Link>
+              <Link href={'/Contact'} className='m-2 '>Contact</Link>
               <Link href={'/pricing'} className='m-2 '>pricing</Link>
 
               <button className='m-2 '  onClick={() => setDropdown(!dropdown)}>Services</button>

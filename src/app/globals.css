@@ -32,6 +32,9 @@
     width: 90% !important;
   }
 }
+.width-estimate-h1{
+  width: 70%;
+}
 @media (min-width:640px) {
   .width-details{
     width: 25% !important;
