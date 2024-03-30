@@ -1,12 +1,11 @@
 import MainLandingPage from "@/components/MainLandingPage";
-import Services1 from "@/components/Services1";
 import Navbar from "@/components/navbar";
-
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
-   <>
-      <Navbar/>
+    <>
+      <Navbar />
       <MainLandingPage />
-   </>
+    </>
   );
 }

@@ -1,0 +1,21 @@
+.footerContainer {
+    flex-direction: column;
+  }
+  
+  @media (min-width: 640px) {
+    .footerContainer {
+      flex-direction: row;
+    }
+  }
+  
+  .widthitemFooter {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 640px) {
+    .widthitemFooter {
+      margin-bottom: 20px;
+    }
+  }
+  
