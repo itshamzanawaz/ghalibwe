@@ -254,7 +254,8 @@ const Navbar = () => {
               <li><Link href="#">Soft Toys</Link></li>
               <li><Link href="#">Magnet Toys</Link></li>
             </ul></li>
-            <li className="parent"><Link href={'/'}>Samples</Link></li>
+            <li className="parent"><Link href={'/Samples'}>Samples</Link></li>
+            <li className="parent"><Link href={'/Pricing'}>Pricing</Link></li>
             <Link href={'/get-estimate'} className="btnGet"> Get Estimates</Link>
             <li className="parent"><Link href={'/Contact'}>Contact</Link></li>
         </ul>
