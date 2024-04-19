@@ -156,7 +156,7 @@ const Navbar = () => {
 
           <ul className="ul-nav w-full space-x-5 bg-slate-400 main-ul justify-center items-center align-middle flex">
           <li className="parent"><Link href={'/'}>Home</Link></li>
-          <li className="parent"><Link href="#">Services</Link>
+          <li className="parent"><Link href="/Services">Services</Link>
             <ul className="child">
               <li className="parent"><Link href="/CostEstimating">Cost Estimating <span className="expand">»</span></Link>
                 <ul className="child">
