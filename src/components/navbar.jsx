@@ -196,7 +196,7 @@ const Navbar = () => {
             
 
 
-          <li className="parent"><Link href="#">Our Trades</Link>
+          <li className="parent"><Link href="/OurTrades">Our Trades</Link>
             <ul className="child">
               <li><Link href="#">Yoyo</Link></li>
               <li><Link href="#">Doctor Kit</Link></li>

@@ -177,6 +177,17 @@
   height: 10rem;
   opacity: 0.9;
 }
+.yellow-ul li{
+  list-style-type: disc;
+
+}
+.yellow2 {
+  background-image: url("../bg2.jpg");
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+  padding: 20px;
+}
 .width-h1-s11{
   width: 70%;
 }
