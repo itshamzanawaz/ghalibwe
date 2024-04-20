@@ -164,7 +164,7 @@ const Navbar = () => {
                   <li><Link href="#">BIM Estimating Services</Link></li>
                   <li><Link href="#">Budget Estimating</Link></li>
                 </ul></li>
-                <li className="parent"><Link href="/CostEstimating">Cost Estimating <span className="expand">»</span></Link>
+                <li className="parent"><Link href="/Construction-estimating">Construction Estimating <span className="expand">»</span></Link>
                 <ul className="child">
                   <li><Link href="#">Building Cost Estimating</Link></li>
                   <li><Link href="#">BIM Estimating Services</Link></li>
