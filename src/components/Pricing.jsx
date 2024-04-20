@@ -334,9 +334,9 @@ const toggleOpen = (index) => {
               </>
             ))}
                   
-                  <div className='my-10 text-center'>
-                  <h1 className='bg-red-500 text-white p-6'>Call us Today</h1>
-                  <div className="bg-slate-200 border-2 border-black ">
+                  <div className='my-10 text-center '>
+                  <h1 className='bg-red-600 text-white text-2xl font-semibold p-6'>Call us Today</h1>
+                  <div className="bg-slate-200 border-2 border-black space-y-4 p-12">
                   <h1 className="text-indigo-500 font-bold text-2xl">
                   World Estimating</h1>
                   <p>+923220264464</p>

@@ -191,6 +191,12 @@
 .width-h1-s11{
   width: 70%;
 }
+.ul-ce ul li{
+list-style-type: disc;
+}
+.li-ul-i li{
+  list-style-type: disc;
+}
 .blue {
   background-image: url("../bg7.jpg");
   width: 100%;
