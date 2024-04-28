@@ -181,6 +181,16 @@
   list-style-type: disc;
 
 }
+.yello1{
+  background-color: #f5ea51;
+}
+.ul-1-cts li{
+  padding: 6px;
+  list-style-type: disc;
+  margin-left: 15px;
+}
+
+
 .yellow2 {
   background-image: url("../bg2.jpg");
   width: 100%;
