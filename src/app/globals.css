@@ -190,7 +190,6 @@
   margin-left: 15px;
 }
 
-
 .yellow2 {
   background-image: url("../bg2.jpg");
   width: 100%;
@@ -232,7 +231,7 @@ list-style-type: disc;
 
 @media only screen and (max-width: 1000px) {
   .ul-nav {
-    font-size: small !important;
+    font-size: 7px !important;
   }
 }
 @media only screen and (max-width: 786px) {
@@ -304,6 +303,7 @@ list-style-type: disc;
   background-color: grey;
 
 }
+
 .parent {
 	display: block;
 	position: relative;
@@ -417,4 +417,10 @@ ul ul ul {
   display: block;
   top: 0;
   left: 100%;
+}
+
+
+
+.width-list-item{
+  width: 250px !important;
 }
