@@ -191,7 +191,9 @@
   list-style-type: disc;
   margin-left: 15px;
 }
-
+.width50{
+  width: 50%;
+}
 .yellow2 {
   background-image: url("../bg2.jpg");
   width: 100%;
@@ -205,6 +207,9 @@
 .ul-ce ul li{
 list-style-type: disc;
 }
+.ul-o{
+  list-style-type: disc;
+}
 .li-ul-i li{
   list-style-type: disc;
 }
@@ -216,6 +221,9 @@ list-style-type: disc;
 }
 .btn-quote {
   padding: 1.7rem;
+}
+.width30{
+  width: 30%;
 }
 @media only screen and (min-width: 600px) {
   .image-tiles {

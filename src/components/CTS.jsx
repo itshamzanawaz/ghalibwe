@@ -307,16 +307,16 @@ const CTS = () => {
               for a given space.
             </p>
 
-            <div className="bg-slate-200 flex sm:flex-col flex-row p-8 m-4 ">
+            <div className="bg-slate-200 flex sm:flex-row flex-col p-8 m-4 ">
               <h1 className="text-indigo-900 font-semibold">
                 Get to know about how much we will charge?
               </h1>
-              <div className="flex items-center justify-around">
-                <h1 className="text-indigo-900 font-semibold">
+              <div className="flex items-center justify-around sm:flex-row flex-col p-3 m-3">
+                <h1 className="text-indigo-900 font-semibold text-sm">
                   Send us plans and scope at info@worldestimating.com
                 </h1>
 
-                <button className="yello1 p-4 hover:opacity-80 text-white">
+                <button className="yello1 p-4 hover:opacity-80 text-slate-700 mt-2">
                   Get a Quote 30%off
                 </button>
               </div>
