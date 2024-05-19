@@ -2,8 +2,9 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Footer from "./Footer";
-import Logo from "../logosample.webp";
 import Logo1 from "../bg1.jpg";
+import Link from "next/link";
+
 const CTS = () => {
   const [openIndex, setOpenIndex] = useState(null);
   const FAQs = [
@@ -27,24 +28,31 @@ const CTS = () => {
 
   const servicesdata = [
     {
-      services: "cost-estimating",
+      services: "Cost-Estimating",
     },
     {
-      services: "cost-estimating",
+      services: "Construction-estimating",
     },
     {
-      services: "cost-estimating",
+      services: "industrial-estimating",
     },
     {
-      services: "cost-estimating",
+      services: "Construction-Takeoff-Service",
     },
     {
-      services: "cost-estimating",
+      services: "residential-estimating",
     },
     {
-      services: "cost-estimating",
+      services: "commercial-estimating",
+    },
+    {
+      services: "preliminary-estimate",
+    },
+    {
+      services: "estimating-consultant",
     },
   ];
+
   const toggleOpen = (index) => {
     setOpenIndex(openIndex === index ? null : index); // Toggle the FAQ item's open state
   };
@@ -280,83 +288,103 @@ const CTS = () => {
               </p>
             </div>
 
+            <p>
+              Our estimates will provide you a clear insight into the cost of
+              your project earlier the detailed plans are drawn up. Our
+              customers will get the right construction cost estimates that you
+              can share with confidence to your client. Our 15 years of
+              experience develop us the best in the industry and we use the
+              right standards using the advanced software. Our users will get a
+              projected cost that is accurate depending on the information
+              provided by the customers.
+            </p>
+            <br />
+            <p>
+              World Estimating is having a proven track record of providing
+              building takeoffs with zip code vendor quoted estimates for 15
+              years and our expert estimators provide the right proposals
+              related to the missing information and typical costs associated
+              for a given space.
+            </p>
 
-
-
-<p>Our estimates will provide you a clear insight into the cost of your project earlier the detailed plans are drawn up. Our customers will get the right construction cost estimates that you can share with confidence to your client. Our 15 years of experience develop us the best in the industry and we use the right standards using the advanced software. Our users will get a projected cost that is accurate depending on the information provided by the customers.
-
-</p>
-<br />
-<p>World Estimating is having a proven track record of providing building takeoffs with zip code vendor quoted estimates for 15 years and our expert estimators provide the right proposals related to the missing information and typical costs associated for a given space.
-
-</p>
-
-
-
-
-
-<div className="bg-slate-200 flex sm:flex-col flex-row p-8 m-4 ">
+            <div className="bg-slate-200 flex sm:flex-col flex-row p-8 m-4 ">
               <h1 className="text-indigo-900 font-semibold">
-              Get to know about how much we will charge?
-
+                Get to know about how much we will charge?
               </h1>
               <div className="flex items-center justify-around">
-              <h1 className="text-indigo-900 font-semibold">
-              Send us plans and scope at info@worldestimating.com
-              </h1>
-              
-              <button className="yello1 p-4 hover:opacity-80 text-white">Get a Quote 30%off</button>
+                <h1 className="text-indigo-900 font-semibold">
+                  Send us plans and scope at info@worldestimating.com
+                </h1>
+
+                <button className="yello1 p-4 hover:opacity-80 text-white">
+                  Get a Quote 30%off
+                </button>
+              </div>
             </div>
-            </div>
 
-
-
-
-
-
-
-
-
-<h1 className="text-indigo-900 font-bold text-3xl mb-4 mt-8">
-WHY WORLD ESTIMATING IS THE RIGHT OPTION FOR CONSTRUCTION TAKEOFF SERVICES?
+            <h1 className="text-indigo-900 font-bold text-3xl mb-4 mt-8">
+              WHY WORLD ESTIMATING IS THE RIGHT OPTION FOR CONSTRUCTION TAKEOFF
+              SERVICES?
             </h1>
-<p>Being able to understand your exact requirements and having dealt with thousands of clients each year, we have developed an amazing construction takeoff and estimating template bids. All of these combined with plentiful of experience and software expertise has emerged us being invincible in winning our client’s success and trust.
-
-</p>
-<h1 className="text-indigo-900 font-bold text-xl mb-4 mt-8">
-Success Stories:
+            <p>
+              Being able to understand your exact requirements and having dealt
+              with thousands of clients each year, we have developed an amazing
+              construction takeoff and estimating template bids. All of these
+              combined with plentiful of experience and software expertise has
+              emerged us being invincible in winning our client’s success and
+              trust.
+            </p>
+            <h1 className="text-indigo-900 font-bold text-xl mb-4 mt-8">
+              Success Stories:
             </h1>
 
-<p>An insulation contractor has outsourced his complete takeoff to us for whom we provide quantities, manhours and pricing. The contractor is based in Sapulpa, OK. Their company was having hard time, building up takeoffs and thus submitting sufficient bids to land new jobs.
+            <p>
+              An insulation contractor has outsourced his complete takeoff to us
+              for whom we provide quantities, manhours and pricing. The
+              contractor is based in Sapulpa, OK. Their company was having hard
+              time, building up takeoffs and thus submitting sufficient bids to
+              land new jobs.
+            </p>
+            <br />
 
-</p>
-<br />
-
-<p>Our solution was monthly package in which they can send 10 jobs of specific scope and size to us. They just forward to ITB to us, from where we retrieve plans/drawings, perform takeoff, assign costs and send back estimates to them.
-
-</p>
-<br />
-<p>This cost them $1500 and it enabled them to land most of the jobs. Since then, they are our regular client who have completely outsourced their takeoffs to us and closing more leads.
-
-</p>
-
-
+            <p>
+              Our solution was monthly package in which they can send 10 jobs of
+              specific scope and size to us. They just forward to ITB to us,
+              from where we retrieve plans/drawings, perform takeoff, assign
+              costs and send back estimates to them.
+            </p>
+            <br />
+            <p>
+              This cost them $1500 and it enabled them to land most of the jobs.
+              Since then, they are our regular client who have completely
+              outsourced their takeoffs to us and closing more leads.
+            </p>
           </div>
 
           <div className="width-details">
-            <button className="bg-yellow-500 text-xl p-4">
+            <button className="bg-yellow-500 text-xl p-4 w-full">
               View Our Portfolio
             </button>
             <br />
             <br />
-            {servicesdata.map((data, index) => {
+
+            <h1 className="text-indigo-900 text-3xl font-bold mb-5">
+            Our Services
+          </h1>
+
+
+
+
+          {servicesdata.map((data, index) => {
               return (
                 <div
                   key={index}
                   className="flex bg-slate-500 border-2 border-black text-white space-x-5 p-2 hover:bg-yellow-400"
                 >
                   <div className="flex flex-col text-center ">
+                    <Link href={`/${data.services}`}>
                     <p>{data.services}</p>
+                    </Link>
                   </div>
                 </div>
               );
@@ -389,17 +417,20 @@ Success Stories:
               </>
             ))}
 
-            <div className="sticky top-48">
-              <div className="my-10 text-center ">
+            <div className="sticky top-48 mt-8">
+              <div className="my-2 text-sm ">
                 <h1 className="bg-red-600 text-white text-2xl font-semibold p-6">
                   Call us Today
                 </h1>
-                <div className="bg-slate-200 border-2 border-black space-y-4 p-12">
+
+                <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
                     World Estimating
                   </h1>
                   <p>+923220264464</p>
-                  <p>itshamzanawaz@gmail.com</p>
+                  <p className="text-size-wrap">
+                    <span>itshamzanawaz@gmail.com</span>
+                  </p>
                 </div>
               </div>
             </div>

@@ -179,7 +179,9 @@
 }
 .yellow-ul li{
   list-style-type: disc;
-
+.text-size-wrap{
+  word-wrap: break-word;
+}
 }
 .yello1{
   background-color: #f5ea51;

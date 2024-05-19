@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Footer from "./Footer";
 import Logo from "../logosample.webp";
+import Link from "next/link";
+
 
 const CostEstimating = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -27,23 +29,30 @@ const CostEstimating = () => {
 
   const servicesdata = [
     {
-      services: "cost-estimating",
+      services: "Cost-Estimating",
     },
     {
-      services: "cost-estimating",
+      services: "Construction-estimating",
     },
     {
-      services: "cost-estimating",
+      services: "industrial-estimating",
     },
     {
-      services: "cost-estimating",
+      services: "Construction-Takeoff-Service",
     },
     {
-      services: "cost-estimating",
+      services: "residential-estimating",
     },
     {
-      services: "cost-estimating",
+      services: "commercial-estimating",
     },
+    {
+      services: "preliminary-estimate",
+    },
+    {
+      services: "estimating-consultant",
+    },
+    
   ];
   const toggleOpen = (index) => {
     setOpenIndex(openIndex === index ? null : index); // Toggle the FAQ item's open state
@@ -393,11 +402,19 @@ const CostEstimating = () => {
           </div>
 
           <div className="width-details">
-            <button className="bg-yellow-500 text-xl p-4">
+            <button className="bg-yellow-500 text-xl p-4 w-full mt-4">
               View Our Portfolio
             </button>
             <br />
             <br />
+
+
+          <h1 className="text-indigo-900 text-3xl font-bold mb-5">
+            Our Services
+          </h1>
+
+
+
             {servicesdata.map((data, index) => {
               return (
                 <div
@@ -405,7 +422,9 @@ const CostEstimating = () => {
                   className="flex bg-slate-500 border-2 border-black text-white space-x-5 p-2 hover:bg-yellow-400"
                 >
                   <div className="flex flex-col text-center ">
+                    <Link href={`/${data.services}`}>
                     <p>{data.services}</p>
+                    </Link>
                   </div>
                 </div>
               );
@@ -431,27 +450,33 @@ const CostEstimating = () => {
                     className={`${
                       openIndex === index && "transition-all"
                     } p-12 bg-white text-black`}
-                  >
+                  > 
                     {faq.A}
                   </div>
                 )}
               </>
             ))}
 
-            <div className="sticky top-48">
-              <div className="my-10 text-center ">
+            <div className="sticky top-48 mt-8">
+              <div className="my-2 text-sm ">
                 <h1 className="bg-red-600 text-white text-2xl font-semibold p-6">
                   Call us Today
                 </h1>
-                <div className="bg-slate-200 border-2 border-black space-y-4 p-12">
+                
+                <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
                     World Estimating
                   </h1>
                   <p>+923220264464</p>
-                  <p>itshamzanawaz@gmail.com</p>
+                  <p className="text-size-wrap"><span>itshamzanawaz@gmail.com</span></p>
                 </div>
               </div>
             </div>
+
+
+
+
+
           </div>
         </div>
       </div>
