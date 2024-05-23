@@ -58,7 +58,7 @@ const ResidentialEstimating = () => {
   return (
     <div className="main absolute">
       <div className="m-16">
-        <div className="flex sm:flex-row flex-col sm:w-full">
+        <div className="flex sm:flex-row flex-col">
           <div className="form-width">
             <h1 className="text-indigo-900 width-estimate-h1 font-bold text-2xl mb-4">
               RESIDENTIAL ESTIMATING SERVICES

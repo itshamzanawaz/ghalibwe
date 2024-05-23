@@ -152,7 +152,7 @@ const Navbar = () => {
                 </li>
                 <li className="parent">
                   <Link href="/Construction-Takeoff-Service">
-                    CONSTRUCTION TAKEOFF
+                    Construction Takeoff
                   </Link>
                 </li>
 
