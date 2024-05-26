@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import Logo1 from "../bg1.jpg";
 import Link from "next/link";
 
-const Perlimanary = () => {
+const PerliminaryEstimate = () => {
   const [openIndex, setOpenIndex] = useState(null);
   const FAQs = [
     {
@@ -60,13 +60,252 @@ const Perlimanary = () => {
       <div className="m-16">
         <div className="flex sm:flex-row flex-col sm:w-full">
           <div className="form-width">
-            
+            <h1 className="text-indigo-900 width-estimate-h1 font-bold text-3xl  mb-12">
+              PRELIMINARY ESTIMATE
+            </h1>
+            <div className="flex flex-col sm:flex-row">
+              <div className="width50">
+                <p>
+                  Are you somewhere in the range of 30%, 60%, and 90% of your
+                  drawing plans? Or frustrated by preparing estimates with
+                  incomplete drawing plans? Or in need of a quick preliminary
+                  estimate to check if the project is in your client’s budget?
+                  Or your suppliers are delaying in quoting prices? We can serve
+                  you by providing fast and detailed preliminary estimates with
+                  square footage cost to analyze the feasibility of your project
+                  and proceed effectively with your clients.
+                </p>
+                <br />
+              </div>
+              <Image
+                src={Logo1}
+                width={350}
+                height={200}
+                alt="industrial"
+                className="p-4 width50"
+              />
+            </div>
+            <p>
+              {" "}
+              With 15 years of experience in the AEC industry and portfolio in
+              commercial, residential, private, and public projects, World
+              estimating can promise the most reliable and defensible
+              preliminary estimates based on assumptions from the past projects.
+              We come up with per square feet or square meter costs for finished
+              projects as well as superstructures by utilizing professional
+              estimating Software and our developed databases, RS Means and
+              Craftsmen. Our location-based database and relations with local
+              vendors help in performing the bill of material as accurately as
+              possible.
+            </p>
+            <br />
+            <h1 className="text-indigo-900 width-estimate-h1 font-bold text-3xl  mb-12">
+              What Is A Preliminary Estimate And How It Helps?
+            </h1>
+
+            <p>
+              A preliminary estimate or conceptual estimate is used to forecast
+              the project cost to analyze the economic feasibility of the
+              construction project prior to the development of detailed drawing
+              plans. It helps contractors, real estate developers, home
+              builders, and owners in making decisions for allocating funds,
+              setting the preliminary budget and comparing initial design
+              alternatives.
+            </p>
+            <br />
+            <p>
+              As preliminary cost estimates are carried out at the beginning of
+              the project before the actual design and construction, therefore
+              they are mainly based on historical data of the projects adjusted
+              to the time, location, size, and prepared using engineering
+              concepts.
+            </p>
+            <br />
+            <p>
+              There are several types of preliminary cost estimates that are
+              employed at various stages in the lifecycle of the project. The
+              accuracy of these estimates depends on the extent of the
+              information provided by the client.
+            </p>
+            <br />
+
+            <div className="flex flex-col sm:flex-row justify-around">
+              <div className="width50">
+                <h1 className="text-indigo-900 width-estimate-h1 font-bold text-xl  mb-12">
+                  Rough Order Magnitude Estimate
+                </h1>
+                <p>
+                  The first attempt to estimate in the project’s lifecycle is
+                  regarded as a rough order magnitude estimate or ROM. It is
+                  employed to analyze the feasibility of the project that
+                  contributes to the project’s selection and allocation. It has
+                  accuracy in the range of -50% to +50%.
+                </p>
+                <br />
+                <h1 className="text-indigo-900 width-estimate-h1 font-bold text-xl  mb-12">
+                  Ballpark Estimate
+                </h1>
+                <p>
+                  Ballpark estimate is developed by the contractors to define
+                  the scope of work to their clients, so that owners can make
+                  decisions according to their budget. It is evaluated on the
+                  basis of preliminary drawings and specifications, and its
+                  accuracy lies within 20% of the actual cost.
+                </p>
+              </div>
+
+              <div className="width50">
+                <h1 className="text-indigo-900 width-estimate-h1 font-bold text-xl  mb-12">
+                  Budget Estimate
+                </h1>
+                <p>
+                  The budget estimate is prepared using past projects’ data and
+                  plans when the project comes into its planning stage. It
+                  defines the costs associated with the major components of the
+                  projects in each line description including materials and
+                  labor costs. Its accuracy lies in the range of -10% to +25% of
+                  the actual cost.
+                </p>
+                <br />
+                <h1 className="text-indigo-900 width-estimate-h1 font-bold text-xl  mb-12">
+                  Definitive Estimate
+                </h1>
+                <p>
+                  A definitive estimate is also known as a digital cost estimate
+                  contains a detailed itemized list of components involved in
+                  the project. It is prepared by using thoroughly developed
+                  project plans and has an accuracy of -5% to +15%.
+                </p>
+              </div>
+            </div>
+
+            <br />
+            <br />
+
+            <h1 className="text-indigo-900 width-estimate-h1 font-bold text-2xl w-full mb-12">
+              How Can Our Preliminary Estimate Benefit You?
+            </h1>
+
+            <p>
+              Our estimates can help you in evaluating the initial cost to
+              support in:
+            </p>
+
+            <ul className="list-disc space-y-2 p-4">
+              <li>Managing the budget and getting loans</li>
+              <li>
+                Setting the project cost limit for Architects and designers
+              </li>
+              <li>
+                Getting the idea of probable amount and cost of material and
+                labor
+              </li>
+              <li>Planning the next phase</li>
+              <li>
+                Allocating and negotiating with contractors and subcontractors
+              </li>
+            </ul>
+
+            <br />
+            <h1 className="text-indigo-900 width-estimate-h1 font-bold text-2xl w-full mb-12">
+              How Can You Quote A Preliminary Estimate To Your Prospective
+              Clients?
+            </h1>
+
+            <p>
+              Our preliminary cost estimates are based on the floor area which
+              makes it easy for your clients and architects to understand and
+              interpret the information.
+            </p>
+            <br />
+            <p>Our bill of material comprises of:</p>
+
+            <br />
+
+            <ul className="list-disc space-y-2 p-4">
+              <li>
+                The total area (square foot or square meter) of the complete
+                project
+              </li>
+              <li>
+                Linear measurement (foot or meter) of each structure like walls
+                etc.
+              </li>
+              <li>Area of each unit i.e. rooms, floors, etc.</li>
+            </ul>
+
+            <br />
+            <h1 className="text-indigo-900 width-estimate-h1 font-bold text-2xl w-full mb-12">
+              What Do You Get In Our Preliminary Estimate?
+            </h1>
+            <p>
+              The estimate consists of the breakdown of quantities, and the
+              following divisions are considered:
+            </p>
+
+            <ul className="list-disc space-y-2 p-4">
+              <li>Preliminaries</li>
+              <li>Substructures (footings, foundations, etc.)</li>
+              <li>
+                Superstructures (brickwork, walls, sidings, roofs, staircase,
+                floors, doors, windows)
+              </li>
+              <li>
+                External/Internal finishes (flooring, drywall, painting, etc.)
+              </li>
+              <li>Fittings</li>
+              <li>Mechanical (HVAC systems, ductwork, etc.)</li>
+              <li>Plumbing (pipes, drains, fixtures, etc.)</li>
+              <li>Electrical (cable, conduit, lighting, etc.)</li>
+              <li>Labor</li>
+              <li>Man Hours</li>
+              <li>Contingency</li>
+              <li>Project Schedule</li>
+            </ul>
+<br />
+            <h1 className="text-indigo-900 width-estimate-h1 font-bold text-2xl w-full mb-5">
+              How Do We Prepare A Preliminary Estimate?
+            </h1>
+
+            <ul className="list-disc space-y-2 p-4">
+              <li>
+                First, our estimators study and evaluate the information to
+                analyze the scope of the project and produce an estimating plan.
+              </li>
+              <li>Then, the data of similar past projects is collected.</li>
+              <li>
+                The adjustments are applied with respect to time, location, and
+                size. A contingency is also applied.
+              </li>
+              <li>
+                All the specifications, adjustments, assumptions, are mentioned
+                in detail.
+              </li>
+            </ul>
+<br />
+<h1 className="text-indigo-900 width-estimate-h1 font-bold text-2xl w-full mb-5">
+What Factors Contribute Towards The Right Preliminary Estimates?
+            </h1>
+
+<p>
+While performing a bill of material based on previous projects’ data, we make assumptions and adjustments with respect to time, location, type, and size of the project.
+
+
+</p>
 
 
 
 
 
-            
+
+
+
+
+
+
+
+
+            {/*  */}
           </div>
 
           {/* 
@@ -161,4 +400,4 @@ const Perlimanary = () => {
   );
 };
 
-export default Perlimanary;
+export default PerliminaryEstimate;
