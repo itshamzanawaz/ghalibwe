@@ -191,7 +191,7 @@ const PerliminaryEstimate = () => {
               support in:
             </p>
 
-            <ul className="list-disc space-y-2 p-4">
+            <ul >
               <li>Managing the budget and getting loans</li>
               <li>
                 Setting the project cost limit for Architects and designers
