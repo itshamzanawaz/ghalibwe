@@ -262,7 +262,7 @@ const PerliminaryEstimate = () => {
               <li>Contingency</li>
               <li>Project Schedule</li>
             </ul>
-<br />
+            <br />
             <h1 className="text-indigo-900 width-estimate-h1 font-bold text-2xl w-full mb-5">
               How Do We Prepare A Preliminary Estimate?
             </h1>
@@ -282,27 +282,142 @@ const PerliminaryEstimate = () => {
                 in detail.
               </li>
             </ul>
-<br />
-<h1 className="text-indigo-900 width-estimate-h1 font-bold text-2xl w-full mb-5">
-What Factors Contribute Towards The Right Preliminary Estimates?
+            <br />
+            <h1 className="text-indigo-900 width-estimate-h1 font-bold text-2xl w-full mb-5">
+              What Factors Contribute Towards The Right Preliminary Estimates?
             </h1>
 
-<p>
-While performing a bill of material based on previous projects’ data, we make assumptions and adjustments with respect to time, location, type, and size of the project.
+            <p>
+              While performing a bill of material based on previous projects’
+              data, we make assumptions and adjustments with respect to time,
+              location, type, and size of the project.
+            </p>
+            <br />
+            <ul className="list-disc pl-4 space-y-4">
+              <li>
+                We modify the project cost to the time of the start of
+                construction because these estimates are calculated two or more
+                years in advance to construction therefore cost must be
+                identified with respect to the future. It is adjusted using a
+                time index which includes relative inflation or deflation with
+                respect to time due to factors like labor rates, material costs,
+                interest rates, etc.
+              </li>
+              <li>
+                The anticipated project cost is evaluated with respect to
+                location as the material, labor rates vary in different parts of
+                the country. For this purpose, we employ our location index to
+                national average cost to adjust the bill of material for a
+                particular region or closest capital city.
+              </li>
+              <li>
+                Project cost is also dependent on the type and size of the
+                project. Here, we apply the size factor which relates the
+                proposed building area to the typical building area.
+              </li>
+              <li>
+                The quality of the basic material required in the construction
+                is also considered eg brick veneer, CMU, framed, etc)
+              </li>
+            </ul>
+
+            <br />
+            <br />
+
+            <div className="flex flex-col sm:flex-row justify-around">
+              <div className=" width50">
+
+              <div className="imageofper1">
+
+              <Image
+                src={Logo1}
+                width={600}
+                height={600}
+                alt="industrial"
+                className="p-4"
+                />
+                </div>
+
+                </div>
 
 
-</p>
+              <div className="width50">
+                <h1 className="text-indigo-900 width-estimate-h1 font-bold text-2xl w-full mb-5">
+                  What Factors Contribute Towards The Right Preliminary
+                  Estimates?
+                </h1>
+                <ul className="list-disc pl-4 space-y-4">
+                  <li>Reliable and precise estimates</li>
+                  <li>Affordable estimates</li>
+                  <li>Quick turnaround times (24 to 48 hours)</li>
+                  <li>Cost-effective monthly takeoff packages</li>
+                  <li>
+                    Expert estimators certified with American estimator
+                    organization like AACE & AIQS
+                  </li>
+                  <li>24/7 customer support</li>
+                </ul>
+              </div>
+            </div>
+            <br /><br />
+
+            <h1 className="text-indigo-900 width-estimate-h1 font-bold text-2xl w-full mb-5">
+            We Are Eager To Help You With Your Next Estimate!
+
+                </h1>
+
+
+                <div>
+              <ol className="list-decimal list-inside flex sm:flex-row flex-col text-2xl m-4 text-indigo-900 font-semibold">
+                <li className="width30">
+                  Submit your plans
+                  <br />
+                  <br />
+                  <p className="text-black font-normal text-base p-4">
+                    Click here to upload your drawing plans and specifications
+                    that can be Bid set, Schematic, Design Development,
+                    Construction document, or conceptual drawings in the
+                    following formats: .PDF, .TIF, .TIFF,.DXF,. DWF, .DWG, .JPG,
+                    .PLN, JPEG, .OSX, .CPC, .DJVU, .CAL
+                  </p>
+                </li>
+                <li className="width30">
+                  Get a quote
+                  <br />
+                  <br />
+                  <p className="text-black font-normal p-4 text-base">
+                    You will quickly get a quote consisting of the invoice,
+                    turnaround time, and delivery date that you can pay via
+                    Credit Card or Debit Card or PayPal.
+                  </p>
+                </li>
+                <li className="width30">
+                  Receive estimate
+                  <br />
+                  <br />
+                  <p className="text-black font-normal text-base p-4">
+                    Estimates will be delivered to you in EXCEL sheets
+                    comprising all the material and labor pricing categorized by
+                    divisions or CSI costs either in MasterFormat or your
+                    customized format.
+                  </p>
+                </li>
+              </ol>
+            </div>
 
 
 
+            <br />
+            <br />
+            <div className="bg-slate-200 p-6 flex sm:flex-row flex-col justify-around align-middle items-center rounded-sm mr-4">
+              <h1 className="text-indigo-900 text-lg text-center font-bold mb-5">
+              Fee Free To Contact Us We Are Always Ready To Help You Out
 
-
-
-
-
-
-
-
+              </h1>
+              <button className="bg-yellow-400  hover:bg-yellow-200 text-black p-4 w-44">
+                Call Us and get 30% off
+              </button>
+            </div>
 
 
             {/*  */}
