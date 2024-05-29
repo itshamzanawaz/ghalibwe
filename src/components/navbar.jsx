@@ -15,6 +15,7 @@ import { IoMenu } from "react-icons/io5";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+  const [dropdown2, setDropdown2] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
   const [midNavHeight, setMidNavHeight] = useState("h-36");
   useEffect(() => {
@@ -54,6 +55,7 @@ const Navbar = () => {
     "pt-2": true,
     "h-36": true,
     "transition-height": true,
+    'px-8':true
   });
   const removeonscroll = classnames({
     hidden: scrollPosition > 100,
@@ -73,18 +75,7 @@ const Navbar = () => {
       href: "/OurTrades",
       title: "Our Trades",
     },
-    {
-      href: "/Pricing",
-      title: "Pricing",
-    },
-    {
-      href: "/Samples",
-      title: "Samples",
-    },
-    {
-      href: "/About",
-      title: "About Us",
-    },
+    
     {
       href: "/Contact",
       title: "Contact",
@@ -128,10 +119,10 @@ const Navbar = () => {
               </div>
             </div>
             <div className="social flex space-x-3 justify-center items-center">
-              <FaFacebook />
-              <FaInstagram />
-              <FaYoutube />
-              <FaLinkedin />
+              <FaFacebook className="text-blue-600 hover:transition-all hover:scale-125 text-2xl"/>
+              <FaInstagram className="text-red-500 hover:transition-all hover:scale-125 text-2xl"/>
+              <FaYoutube className="text-red-600 hover:transition-all hover:scale-125 text-2xl"/>
+              <FaLinkedin className="text-blue-500 hover:transition-all hover:scale-125 text-2xl"/>
             </div>
           </div>
 
@@ -190,40 +181,40 @@ const Navbar = () => {
               <Link href="/OurTrades">Our Trades</Link>
               <ul className="child">
                 <li className="parent width-list-item">
-                  <Link href="/Cost-Estimating">Cost Estimating </Link>
+                  <Link href="/Concrete-Estimating">Concrete Estimating </Link>
                 </li>
                 <li className="parent">
-                  <Link href="/Construction-estimating">
-                    Construction Estimating{" "}
+                  <Link href="/Electrical-estimating">
+                    Electrical Estimating{" "}
                   </Link>
                 </li>
                 <li className="parent">
-                  <Link href="/Construction-Takeoff-Service">
-                    CONSTRUCTION TAKEOFF
+                  <Link href="/interior-exterior-finishes">
+                    Interior & Exterior Finishes
                   </Link>
                 </li>
 
                 <li>
-                  <Link href="/Residential-Estimating">
-                    Residential Estimating
+                  <Link href="/Masonry-Estimating">
+                    Masonry Estimating
                   </Link>
                 </li>
                 <li>
-                  <Link href="/Commercial-Estimating">
-                    Commercial Estimating
+                  <Link href="/MEP-Estimating">
+                    MEP Estimating
                   </Link>
                 </li>
                 <li>
-                  <Link href="/Industrial-Estimating">
-                    Industrial Estimating
+                  <Link href="/Metals-Estimating">
+                    Metals Estimating
                   </Link>
                 </li>
                 <li>
-                  <Link href="/preliminary-estimate">Preliminary-estimate</Link>
+                  <Link href="/openings-estimate">openings estimate</Link>
                 </li>
                 <li>
-                  <Link href="/construction-estimating-consultant">
-                    Construction-estimating
+                  <Link href="/Thermal-moisture-protection-estimating">
+                  Thermal moisture <br /> <span className="pl-3">protection estimating</span>
                   </Link>
                 </li>
               </ul>
@@ -236,15 +227,7 @@ const Navbar = () => {
 
 
 
-            <li className="parent">
-              <Link href="/About-us">About Us</Link>
-            </li>
-            <li className="parent">
-              <Link href={"/Samples"}>Samples</Link>
-            </li>
-            <li className="parent">
-              <Link href={"/Pricing"}>Pricing</Link>
-            </li>
+            
             <Link href={"/get-estimate"} className="btnGet">
               {" "}
               Get Estimates
@@ -272,55 +255,83 @@ const Navbar = () => {
               <Link href={"/"} className="m-2 ">
                 Home
               </Link>
-              <Link href={"/Samples"} className="m-2 ">
-                Sample
-              </Link>
+              
               <Link href={"/Contact"} className="m-2 ">
                 Contact
               </Link>
-              <Link href={"/pricing"} className="m-2 ">
-                pricing
-              </Link>
+              
 
               <button className="m-2 " onClick={() => setDropdown(!dropdown)}>
                 Services {dropdown ? "-" : "+"}
               </button>
               {dropdown && (
                 <ul>
-                  <li className="text-slate-400">
-                    <Link href={"/Cost-Estimating"}>CostEstimating</Link>
-                  </li>
-                  <li className="text-slate-400">
-                    <Link href={"/Cost-Estimating"}>CostEstimating</Link>
-                  </li>
-                  <li className="text-slate-400">
-                    <Link href={"/Cost-Estimating"}>CostEstimating</Link>
-                  </li>
-                  <li className="text-slate-400">
-                    <Link href={"/Cost-Estimating"}>CostEstimating</Link>
-                  </li>
-                  <li className="text-slate-400">
-                    <Link href={"/Cost-Estimating"}>CostEstimating</Link>
-                  </li>
-                  <li className="text-slate-400">
-                    <Link href={"/Cost-Estimating"}>CostEstimating</Link>
-                  </li>
-                  <li className="text-slate-400">
-                    <Link href={"/Cost-Estimating"}>CostEstimating</Link>
-                  </li>
-                  <li className="text-slate-400">
-                    <Link href={"/Cost-Estimating"}>CostEstimating</Link>
-                  </li>
-                  <li className="text-slate-400">
-                    <Link href={"/Cost-Estimating"}>CostEstimating</Link>
-                  </li>
+                  <li className="text-slate-400"><Link href={'/Services'}>Services </Link></li>
 
-                  <li className="text-slate-400">Services</li>
-                  <li className="text-slate-400">CostEstimating</li>
+                  <li className="text-slate-400">
+                    <Link href={"/Cost-Estimating"}>CostEstimating</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/Construction-estimating"}>Construction Estimating</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/Construction-Takeoff-Service"}>Construction-Takeoff-Service</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/Residential-Estimating"}>Residential-Estimating</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/Commercial-Estimating"}>Commercial-Estimating</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/Industrial-Estimating"}>Industrial-Estimating</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/preliminary-estimate"}>preliminary-estimate</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/construction-estimating-consultant"}>construction-estimating-consultant</Link>
+                  </li>
+                 
+                  
                 </ul>
               )}
-              <button className="m-2 ">Our trades</button>
-              <button className="m-2 ">About Us</button>
+              <button className="m-2 " onClick={() => setDropdown2(!dropdown2)}>
+                Our Trades {dropdown2 ? "-" : "+"}
+              </button>
+              {dropdown2 && (
+                <ul>
+                  <li className="text-slate-400"><Link href={'/OurTrades'}>Our Trades </Link></li>
+
+                  <li className="text-slate-400">
+                    <Link href={"/Concrete-Estimating"}>Concrete-Estimating</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/Electrical-estimating"}>Electrical=Estimating</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/interior-exterior-finishes"}>interior-exterior-finishes</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/Masonry-Estimating"}>Masonry-Estimating</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/MEP-Estimating"}>MEP-Estimating</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/Metals-Estimating"}>Metals-Estimating</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/openings-estimate"}>openings-estimate</Link>
+                  </li>
+                  <li className="text-slate-400">
+                    <Link href={"/Thermal-moisture-protection-estimating"}>Thermal-moisture-protection-estimating</Link>
+                  </li>
+                 
+                  
+                </ul>
+              )}
+              <Link href={'/get-estimate'} className="m-2 ">Get Estimate</Link>
               {/* Add more mobile links as needed */}
             </ul>
           )}
