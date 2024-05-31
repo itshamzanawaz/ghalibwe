@@ -6,6 +6,7 @@ import { FaCheck } from "react-icons/fa6";
 import { LuUpload } from "react-icons/lu";
 import { FaQuoteRight } from "react-icons/fa6";
 import { IoNewspaperOutline } from "react-icons/io5";
+import Footer from "./Footer";
 
 const ConcreteEstimating = () => {
   const [open, isOPen] = useState(false);
@@ -882,6 +883,7 @@ OUR RECENT PROJECTS
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
