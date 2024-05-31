@@ -3,6 +3,22 @@
 @tailwind utilities;
 
 
+
+
+.width80{
+width: 95% !important;
+}
+.width20{
+  width: 25%;
+  height: 40vh;
+}
+@media (max-width:639pc) {
+  .width20{
+    width: 100% !important;
+  }
+  
+}
+
 .a {
   height: 5000px;
 }
