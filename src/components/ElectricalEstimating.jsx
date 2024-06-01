@@ -603,7 +603,7 @@ const ElectricalEstimating = () => {
             <br />
             <br />
             <br />\ {/* offer section */}
-            <div className="flex flex-col sm:flex-row">
+            <div className="flex flex-col sm:flex-row flex-wrap">
               <img
                 src="https://worldestimating.com/wp-content/uploads/2022/10/Construction-PNG-Image.png"
                 alt="offer"
