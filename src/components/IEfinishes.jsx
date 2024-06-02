@@ -498,10 +498,11 @@ const IEfinishes = () => {
             {/* offer section */}
             <div className="flex flex-col sm:flex-row flex-wrap">
               <img
+              className="width50"
                 src="https://worldestimating.com/wp-content/uploads/2022/10/Construction-PNG-Image.png"
                 alt="offer"
               />
-              <div>
+              <div className="width50">
                 <h1 className="text-red-600">Offer :</h1>
                 <h1 className="text-indigo-900 width-estimate-h1 font-semibold text-3xl ">
                   If You Are From Texas Then Get 30% Off On Your First Estimate!{" "}
