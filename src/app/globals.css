@@ -2,8 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (max-width:639px) {
+  #r1{
+    width: 100% !important;
+    margin:0 0 20px 0 ;
+  }
+  #r2{
+    width: 100% !important;
+  }
+}
+#r1{
+  width: 45%;
+  height: 45vh;
+  background-image: url('../r1.webp');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -50;
+}
 
+#r2{
+  width: 45%;
+  height: 45vh;
+  z-index: -50;
 
+  background-image: url('../r2.webp');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#r3{
+  width: 100%;
+  height: 45vh;
+  z-index: -50;
+
+  background-image: url('../r3.webp');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .width80{
 width: 95% !important;
