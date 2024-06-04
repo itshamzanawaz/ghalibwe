@@ -4,20 +4,85 @@ import Footer from "./Footer";
 import { useState } from "react";
 import Image from "next/image";
 import DropBox from "../dropupload.webp";
+import axios from 'axios';
+
 const Contacts = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
 
   const [message, setMessage] = useState("");
+  const [selectedSubject, setSelectedSubject] = useState('construction-estimates');
 
+  const handleSelectChange = (event) => {
+    setSelectedSubject(event.target.value);
+  };
+
+
+
+
+
+
+
+
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  try {
+    const response = await axios.post(
+      "https://api-ap-south-1.hygraph.com/v2/clx09cqqr03vb06uvy4gk9tlg/master",
+      {
+        query: `
+          mutation MyMutation {
+            createContact(
+              data: {
+                name: "${name}",
+                email: "${email}",
+                phone: "${phone}",
+                subject: "${selectedSubject}",
+                message: "${message}"
+              }
+            ) {
+              email
+    id
+    message
+    name
+    phone
+    subject
+            }
+          }
+        `,
+      }
+    );
+
+alert('message sent successfully. We will Contact you soon!')
+    const {
+      data: { createContact },
+    } = response.data;
+    console.log("contact successfully!");
+    setName('');
+    setEmail('');
+    setPhone('');
+    setSelectedSubject('construction-estimates');
+    setMessage('');
+    
+  } catch (error) {
+alert('message not sent successfully. Try Again!')
+
+    console.error("Error creating form:", error);
+  }
+};
+
+
+
+  console.log(name,email,phone,selectedSubject,message,'contact section form')
   return (
     <div className="main absolute">
       <div className="m-16">
         <h1 className="text-indigo-900  font-bold text-3xl mb-4">Contact</h1>
         <div className="bg-amber-500 w-14 h-1 mb-8"></div>
         <div className="flex sm:flex-row flex-col sm:w-full">
-          <form className="form-width">
+          <form className="form-width" onSubmit={handleSubmit}>
             <label
               className="block py-2 my-2 text-lg font-semibold"
               htmlFor="name"
@@ -67,29 +132,31 @@ const Contacts = () => {
               Subject:
             </label>
             <select
-              name="subject"
-              id="subject"
-              className="width-input w-full  bg-slate-300 rounded-md py-1"
-            >
-              <option
-                className="width-input w-full  bg-slate-300 rounded-md py-1"
-                value="construction-estimates"
-              >
-                Construction Estimates
-              </option>
-              <option
-                className="width-input w-full  bg-slate-300 rounded-md py-1"
-                value="material-takeoffs"
-              >
-                Material Takeoffs
-              </option>
-              <option
-                className="width-input w-full  bg-slate-300 rounded-md py-1"
-                value="other"
-              >
-                Other
-              </option>
-            </select>
+      name="subject"
+      id="subject"
+      className="width-input w-full bg-slate-300 rounded-md py-1"
+      value={selectedSubject}
+      onChange={handleSelectChange}
+    >
+      <option
+        className="width-input w-full bg-slate-300 rounded-md py-1"
+        value="construction-estimates"
+      >
+        Construction Estimates
+      </option>
+      <option
+        className="width-input w-full bg-slate-300 rounded-md py-1"
+        value="material-takeoffs"
+      >
+        Material Takeoffs
+      </option>
+      <option
+        className="width-input w-full bg-slate-300 rounded-md py-1"
+        value="other"
+      >
+        Other
+      </option>
+    </select>
             <br />
             <label
               className="block py-2 my-2 text-lg font-semibold"

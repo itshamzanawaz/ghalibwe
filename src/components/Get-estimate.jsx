@@ -5,6 +5,7 @@ import { useState } from "react";
 import Image from "next/image";
 import DropBox from "../dropupload.webp";
 import Logo from '../getest.webp'
+import axios from 'axios';
 
 const Getestimates = () => {
   const [name, setName] = useState("");
@@ -12,13 +13,74 @@ const Getestimates = () => {
   const [phone, setPhone] = useState("");
 
   const [message, setMessage] = useState("");
+  const [selectedSubject, setSelectedSubject] = useState('construction-estimates');
+
+  const handleSelectChange = (event) => {
+    setSelectedSubject(event.target.value);
+  };
+
+
+
+
+
+
+
+
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  try {
+    const response = await axios.post(
+      "https://api-ap-south-1.hygraph.com/v2/clx09cqqr03vb06uvy4gk9tlg/master",
+      {
+        query: `
+          mutation MyMutation {
+            createContact(
+              data: {
+                name: "${name}",
+                email: "${email}",
+                phone: "${phone}",
+                subject: "${selectedSubject}",
+                message: "${message}"
+              }
+            ) {
+              email
+    id
+    message
+    name
+    phone
+    subject
+            }
+          }
+        `,
+      }
+    );
+
+alert('message sent successfully. We will Contact you soon!')
+    const {
+      data: { createContact },
+    } = response.data;
+    console.log("contact successfully!");
+    setName('');
+    setEmail('');
+    setPhone('');
+    setSelectedSubject('construction-estimates');
+    setMessage('');
+    
+  } catch (error) {
+alert('message not sent successfully. Try Again!')
+
+    console.error("Error creating form:", error);
+  }
+};
+
 
   return (
     <div className="main absolute">
       <div className="m-16">
        
         <div className="flex sm:flex-row flex-col sm:w-full">
-          <form className="form-width">
+          <form className="form-width" onSubmit={handleSubmit}>
           <h1 className="text-indigo-900 width-estimate-h1 font-bold text-3xl mb-4">
           Get Estimate: Get Construction Cost Estimates & Material Takeoffs
           Within 24-48 Hours!
@@ -76,10 +138,12 @@ const Getestimates = () => {
               Subject:
             </label>
             <select
-              name="subject"
-              id="subject"
-              className="width-input w-full  bg-slate-300 rounded-md py-1"
-            >
+            name="subject"
+            id="subject"
+            className="width-input w-full bg-slate-300 rounded-md py-1"
+            value={selectedSubject}
+            onChange={handleSelectChange}
+          >
               <option
                 className="width-input w-full  bg-slate-300 rounded-md py-1"
                 value="construction-estimates"
