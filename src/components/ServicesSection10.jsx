@@ -10,92 +10,52 @@ const ServicesSection10 = () => {
       <div className="bg-amber-500 mx-10 w-14 h-1 mb-16"></div>
       <div className="m-2 flex flex-wrap justify-center items-center align-middle">
         <div className="ml-4">
-          <Image
-            src={bg3}
-            width={300}
-            height={220}
-            className="m-2 hover:opacity-40"
-          />
-          <h1 className="w-72 text-indigo-900 text-center font-bold text-2xl">
-            Civic & Public Works
+          <img src="https://worldestimating.com/wp-content/uploads/2019/12/airport.jpg" alt="" />
+          <h1 className="w-72 text-indigo-900 font-bold text-2xl">
+          Airport & Highways
           </h1>
         </div>
         <div className="ml-4">
-          <Image
-            src={bg3}
-            width={300}
-            height={220}
-            className="m-2 hover:opacity-40"
-          />
-          <h1 className="w-72 text-indigo-900 text-center font-bold text-2xl">
-            Commercial Construction Project
+          <img src="https://worldestimating.com/wp-content/uploads/2019/12/civil.jpg" alt="" />
+          <h1 className="w-72 text-indigo-900 font-bold text-2xl">
+          Civic & Public Works
           </h1>
         </div>
         <div className="ml-4">
-          <Image
-            src={bg3}
-            width={300}
-            height={220}
-            className="m-2 hover:opacity-40"
-          />
-          <h1 className="w-72 text-indigo-900 text-center font-bold text-2xl">
+          <img src="https://worldestimating.com/wp-content/uploads/2019/12/commerical.jpg" alt="" />
+          <h1 className="w-72 text-indigo-900 font-bold text-2xl">
             Commerical
           </h1>
         </div>
         <div className="ml-4">
-          <Image
-            src={bg3}
-            width={300}
-            height={220}
-            className="m-2 hover:opacity-40"
-          />
-          <h1 className="w-72 text-indigo-900 text-center font-bold text-2xl">
-            Education Construction Project
+          <img src="https://worldestimating.com/wp-content/uploads/2019/12/education.jpg" alt="" />
+          <h1 className="w-72 text-indigo-900 font-bold text-2xl">
+            Education 
           </h1>
         </div>
       
         <div className="ml-4">
-          <Image
-            src={bg3}
-            width={300}
-            height={220}
-            className="m-2 hover:opacity-40"
-          />
-          <h1 className="w-72 text-indigo-900 text-center font-bold text-2xl">
-            Education
+         <img src="https://worldestimating.com/wp-content/uploads/2019/12/industrial.jpg" alt="" />
+          <h1 className="w-72 text-indigo-900 font-bold text-2xl">
+            Industrial
           </h1>
         </div>
         <div className="ml-4">
-          <Image
-            src={bg3}
-            width={300}
-            height={220}
-            className="m-2 hover:opacity-40"
-          />
-          <h1 className="w-72 text-indigo-900 text-center font-bold text-2xl">
+          <img src="https://worldestimating.com/wp-content/uploads/2019/12/multiuse-family.jpg" alt="" />
+          <h1 className="w-72 text-indigo-900 font-bold text-2xl">
+          Multi-Use Family
+          </h1>
+        </div>
+        <div className="ml-4">
+          <img src="https://worldestimating.com/wp-content/uploads/2019/12/recreation.jpg" alt="" />
+          <h1 className="w-72 text-indigo-900 font-bold text-2xl">
             Airport & Highways
           </h1>
         </div>
         <div className="ml-4">
-          <Image
-            src={bg3}
-            width={300}
-            height={220}
-            className="m-2 hover:opacity-40"
-          />
-          <h1 className="w-72 text-indigo-900 text-center font-bold text-2xl">
-            Airport & Highways
-          </h1>
-        </div>
-        <div className="ml-4">
-          <Image
-            src={bg3}
-            width={300}
-            height={220}
-            className="m-2 hover:opacity-40"
-          />
-          <h1 className="w-72 text-indigo-900 text-center font-bold text-2xl">
-            Airport & Highways
+          <img src="https://worldestimating.com/wp-content/uploads/2019/12/recreation.jpg" alt="" />
+          <h1 className="w-72 text-indigo-900 font-bold text-2xl">
+            Recreation
           </h1>
         </div>
       </div>
