@@ -11,9 +11,9 @@ const Footer = () => {
     <>
       <div className={`flex sm:flex-row flex-col bg-slate-600 w-full h-auto p-10 text-white ${styles.footerContainer}`}>
         <div className={styles.widthitemFooter}>
-          <h1 className="border">WORLD ESTIMATING</h1>
+          <h1 className="border">E-value estimating</h1>
           <p className="p-10 text-sm">
-            World Estimating ®, is a professional cost estimation consultancy
+            E-value estimating ®, is a professional cost estimation consultancy
             specializing in providing detailed construction cost estimates. Our
             cost consultants provide our clients, both public and private
             institutions with different office locations throughout the United
@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full bg-slate-800 text-white p-2">
-        Copyright © 2020 - All Rights Reserved by World Estimating -
+        Copyright © 2020 - All Rights Reserved by E-value estimating -
       </div>
     </>
   );

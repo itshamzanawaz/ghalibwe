@@ -208,7 +208,7 @@ const IEfinishes = () => {
             </h1>
             <br />
             <p>
-              At World Estimating, we strive to provide expert material takeoffs
+              At E-value estimating, we strive to provide expert material takeoffs
               and cost estimates for flooring contractors, flooring installation
               companies, carpet mills, architects, designers, and manufacturers.
               Our highly accurate flooring estimating services are tailored to
@@ -700,7 +700,7 @@ const IEfinishes = () => {
 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap">

@@ -10,7 +10,7 @@ const IndustrialEstimating = () => {
   const FAQs = [
     {
       Q: "Services",
-      A: "If yes, world estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
+      A: "If yes, E-value estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
     },
     {
       Q: "Our Clients ?",
@@ -73,7 +73,7 @@ const IndustrialEstimating = () => {
                 </p>
                 <br />
                 <p>
-                  World estimating has used in rendering total estimating
+                  E-value estimating has used in rendering total estimating
                   solutions to EPC contractors, owners, engineering firms,
                   financial investors, and joint venture partners in the North
                   American industrial sector. Our wide range of industrial
@@ -346,7 +346,7 @@ const IndustrialEstimating = () => {
                 className="p-4 width50"
               />
               <p>
-                The estimation process at world estimating starts with the
+                The estimation process at E-value estimating starts with the
                 discussion of the estimators and engineers to define the scope
                 of the project. This involves a keen analysis of specifications
                 and plans provided by the client to breakdown the specific
@@ -564,7 +564,7 @@ const IndustrialEstimating = () => {
 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap">

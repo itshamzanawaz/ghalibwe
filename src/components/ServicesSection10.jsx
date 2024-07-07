@@ -147,7 +147,7 @@ const ServicesSection10 = () => {
                       </strong>
                     </h3>
                     <p>
-                      World estimating also has expertise and experience in
+                      E-value estimating also has expertise and experience in
                       providing highly precise construction estimating services
                       for public sector projects. In this sector, we offer our
                       services to contractors, developers, architects, and

@@ -77,7 +77,7 @@ const TMPE = () => {
                   <strong>thermal and moisture protection</strong> trade of
                   work. Waterproofing, roofing, firestopping, caulking, siding,
                   sealants, roof consultants, sheet metal flashing and trim
-                  contractors have been served by World Estimating for number of
+                  contractors have been served by E-value estimating for number of
                   years with estimates ranging from sealants and vapor barriers
                   to insulation.
                 </p>
@@ -216,7 +216,7 @@ const TMPE = () => {
             </h1>
             <br />
             <h1 className="text-indigo-900 width-estimate-h1 font-semibold text-xl ">
-              Who has outsourced their estimation to World Estimating?
+              Who has outsourced their estimation to E-value estimating?
             </h1>
 
             <br />
@@ -311,7 +311,7 @@ const TMPE = () => {
 
             <br />
             <p>
-              World Estimating services came up with a plan that would deal with
+              E-value estimating services came up with a plan that would deal with
               the expenses and bid deadlines of the subcontractor and would bear
               the expense that would be 50% less. in case that that fireproofing
               subcontractor hires a professional construction estimator.
@@ -852,7 +852,7 @@ const TMPE = () => {
             <div className="bg-slate-200 p-6 flex sm:flex-row flex-col justify-around align-middle items-center rounded-sm mr-4">
               <h1 className="text-indigo-900 text-lg text-center font-bold mb-5 width80">
                 What Are You Waiting For? If You Are Planning To Hire A
-                Construction Project Estimator, Then World Estimating Is The
+                Construction Project Estimator, Then E-value estimating Is The
                 Right Option For You To Choose!
               </h1>
               <button className="bg-yellow-400  hover:bg-yellow-200 text-black p-4 wodth20">
@@ -928,7 +928,7 @@ const TMPE = () => {
 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap">

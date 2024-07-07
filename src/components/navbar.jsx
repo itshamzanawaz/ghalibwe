@@ -80,6 +80,10 @@ const Navbar = () => {
       href: "/Contact",
       title: "Contact",
     },
+    {
+      href: "/Samples",
+      title: "Samples",
+    },
   ];
 
   return (
@@ -235,6 +239,9 @@ const Navbar = () => {
             <li className="parent">
               <Link href={"/Contact"}>Contact</Link>
             </li>
+            <li className="parent">
+              <Link href={"/Samples"}>Samples</Link>
+            </li>
           </ul>
 
           <div className="w-full h-8 bg-slate-600 flex justify-between items-center px-5 nav-sm">
@@ -259,7 +266,9 @@ const Navbar = () => {
               <Link href={"/Contact"} className="m-2 ">
                 Contact
               </Link>
-              
+              <Link href={"/Samples"} className="m-2 ">
+                Samples
+              </Link>
 
               <button className="m-2 " onClick={() => setDropdown(!dropdown)}>
                 Services {dropdown ? "-" : "+"}

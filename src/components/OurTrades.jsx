@@ -66,12 +66,12 @@ const OurTrades = () => {
 
       <div className="flex justify-around flex-wrap">
         <div className="width-flex-sp w-96 p-6">
-          World Estimating services provides Construction cost estimates in all
+          E-value estimating services provides Construction cost estimates in all
           CSI trades of construction you can see our trades in the right
           columns. Our Construction estimators are well equipped and hands-on
           with every aspect of the takeoffs and pricing of the 16 CSI trades
           having past experience of dealing with industrial, hospitality,
-          retail, commercial and residential projects. World Estimating hold a
+          retail, commercial and residential projects. E-value estimating hold a
           supreme past of serving GC’s working with specific organization like
           MTA and Subcontractors with quality cost consultancy. You can check
           our Blue Book business profile or directly call us at: 347 480-1903

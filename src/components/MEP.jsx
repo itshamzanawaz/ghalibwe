@@ -485,7 +485,7 @@ const MEP = () => {
             </h1>
             <br />
             <p>
-              World estimating is one of the leading construction cost
+              E-value estimating is one of the leading construction cost
               estimation companies that believe in accurate, affordable, and
               reliable service. As our slogan for contractors is “Win More, bid
               More“, we offer monthly takeoff packages to our clients that help
@@ -596,7 +596,7 @@ const MEP = () => {
             </h1>
             <br />
             <p>
-              Firstly, at World Estimating, our estimation process starts with
+              Firstly, at E-value estimating, our estimation process starts with
               the analysis of drawing plans by the MEP specialist who has past
               massive experience in dealing with Mechanical (HVAC), ductwork,
               air-conditioning units, refrigeration units, Electrical, low
@@ -744,7 +744,7 @@ const MEP = () => {
 
             <div>
               <p>
-                World Estimating has been providing construction takeoff services for more than 15 years in North America, Africa, Australia and the Caribbean. In the US, we take pride in serving all the states and follow their rules and regulations:
+                E-value estimating has been providing construction takeoff services for more than 15 years in North America, Africa, Australia and the Caribbean. In the US, we take pride in serving all the states and follow their rules and regulations:
 
 
               </p>
@@ -823,7 +823,7 @@ const MEP = () => {
 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap">

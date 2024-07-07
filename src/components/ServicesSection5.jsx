@@ -4,7 +4,7 @@ const ServicesSection5 = () => {
   return (
     <div>
       <h1 className="ces-h1 mt-10 mx-10">
-      Why World Estimating Company?
+      Why E-value estimating Company?
       </h1>
       <div className="bg-amber-500 mx-10 w-14 h-1 mb-8"></div>
       <p className="mx-10">

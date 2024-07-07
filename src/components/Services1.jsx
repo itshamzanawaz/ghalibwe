@@ -12,7 +12,7 @@ const Services1 = () => {
         <h1>CONSTRUCTION ESTIMATING SERVICES</h1>
         <div></div>
         <p>
-          At World Estimating, we offer our construction estimating services and
+          At E-value estimating, we offer our construction estimating services and
           material takeoffs. We have been around in the construction industry
           for 15 long years through that we have developed a vast team of{" "}
           <b>construction estimators</b>. This way, we have a proven track
@@ -88,7 +88,7 @@ const Services1 = () => {
           <br />
         </div>
         <div>
-          <h1>Why World Estimating Company?</h1>
+          <h1>Why E-value estimating Company?</h1>
           <div></div>
           <p>
             Many contractors lose their money on an average of more than

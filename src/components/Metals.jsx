@@ -80,7 +80,7 @@ const Metals = () => {
 
             <div className="flex flex-col sm:flex-row flex-wrap justify-around">
               <p className="width50">
-                World Estimating started as a steel consulting group for{" "}
+                E-value estimating started as a steel consulting group for{" "}
                 <strong>
                   metal framing contractors, steel erectors, steel
                   manufacturers, distributors, and fabricators
@@ -394,7 +394,7 @@ const Metals = () => {
             </h1>
             <br />
             <p>
-              World estimating serves its clients with precise estimating
+              E-value estimating serves its clients with precise estimating
               services with the culmination of expert estimators and detailers
               proficient in the following Software:
             </p>
@@ -686,7 +686,7 @@ Our estimators are hands-on with digital takeoff software so we deliver estimate
 </p>
 <br/>
 <h1 className="text-indigo-900 width-estimate-h1 font-semibold text-2xl ">
-How much World estimating charge for metals takeoffs?
+How much E-value estimating charge for metals takeoffs?
 </h1>
 
 <br/>
@@ -707,7 +707,7 @@ What is the format of metals estimate deliverables?
 
 </p>
 <br/>
-<p>World estimating has successfully provided integrated construction estimating and cost management services in North American, Caribbean, and Australian regions. In the US, we have a portfolio of working in the following markets:
+<p>E-value estimating has successfully provided integrated construction estimating and cost management services in North American, Caribbean, and Australian regions. In the US, we have a portfolio of working in the following markets:
 
 </p>
 <br/>
@@ -723,7 +723,7 @@ What is the format of metals estimate deliverables?
 
 <div className="bg-slate-200 p-6 flex sm:flex-row flex-col justify-around align-middle items-center rounded-sm mr-4">
 <h1 className="text-indigo-900 text-lg text-center font-bold mb-5 width80">
-What Are You Waiting For? If You Are Planning To Hire A Construction Project Estimator, Then World Estimating Is The Right Option For You To Choose!
+What Are You Waiting For? If You Are Planning To Hire A Construction Project Estimator, Then E-value estimating Is The Right Option For You To Choose!
 
 </h1>
 <button className="bg-yellow-400  hover:bg-yellow-200 text-black p-4 wodth20">
@@ -799,7 +799,7 @@ What Are You Waiting For? If You Are Planning To Hire A Construction Project Est
 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap">

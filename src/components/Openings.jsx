@@ -111,7 +111,7 @@ const Openings = () => {
             <br />
 
             <h1 className="text-indigo-900 width-estimate-h1 font-semibold text-xl ">
-              How does world estimating quantify a certain trade and make it
+              How does E-value estimating quantify a certain trade and make it
               meaningful to the contractor?
             </h1>
 
@@ -125,7 +125,7 @@ const Openings = () => {
             </p>
             <br />
             <h1 className="text-indigo-900 width-estimate-h1 font-semibold text-xl ">
-              How to save money with World Estimating?
+              How to save money with E-value estimating?
             </h1>
 
             <br />
@@ -146,11 +146,11 @@ const Openings = () => {
 
             <p>
               Just concentrate on your installation and fabrication work and
-              hand over the rest to World Estimating, where you will be helped
+              hand over the rest to E-value estimating, where you will be helped
               with estimates, consultancy and will save your time. Thus, filing
               more bids and earning more is only possible when you have more
               time to file rather than to estimate. Many contractors have
-              increased their income bracket after rendering World Estimating
+              increased their income bracket after rendering E-value estimating
               services.
             </p>
 
@@ -580,7 +580,7 @@ const Openings = () => {
 
             <div className="bg-slate-200 p-6 flex sm:flex-row flex-col justify-around align-middle items-center rounded-sm mr-4">
             <h1 className="text-indigo-900 text-lg text-center font-bold mb-5 width80">
-            What Are You Waiting For? If You Are Planning To Hire A Construction Project Estimator, Then World Estimating Is The Right Option For You To Choose!
+            What Are You Waiting For? If You Are Planning To Hire A Construction Project Estimator, Then E-value estimating Is The Right Option For You To Choose!
             
             </h1>
             <button className="bg-yellow-400  hover:bg-yellow-200 text-black p-4 wodth20">
@@ -656,7 +656,7 @@ const Openings = () => {
 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap">

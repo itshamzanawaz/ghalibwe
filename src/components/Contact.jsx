@@ -271,7 +271,7 @@ alert('message not sent successfully. Try Again!')
           </div>
         </div>
         <p>
-          World Estimating is working as a professional cost estimating
+          E-value estimating is working as a professional cost estimating
           consultancy with an excellent reputation for delivering <span className="font-bold">highly
           accurate and timely construction cost estimates and material takeoffs</span>
           for a wide portfolio of projects including public, private,

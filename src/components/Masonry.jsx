@@ -535,7 +535,7 @@ const Masonry = () => {
             <br />
             <p>
               Therefore outsourcing your estimates to a professional estimating
-              company like World Estimating benefits you in the following way:
+              company like E-value estimating benefits you in the following way:
             </p>
             <br />
             <ul className="list-disc space-y-4 pl-6">
@@ -712,7 +712,7 @@ const Masonry = () => {
             <br />
 
             <p>
-              World estimating has a diversified portfolio of estimating
+              E-value estimating has a diversified portfolio of estimating
               thousands of masonry work projects.{" "}
               <strong> A few are listed below:</strong>
             </p>
@@ -797,7 +797,7 @@ const Masonry = () => {
 
             <div>
               <p>
-                At World Estimating, we provide construction takeoff services in
+                At E-value estimating, we provide construction takeoff services in
                 North American, African, Australian, and Caribbean regions. In
                 the US, we serve in the following markets:
               </p>
@@ -881,7 +881,7 @@ const Masonry = () => {
 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap">

@@ -10,7 +10,7 @@ const ResidentialEstimating = () => {
   const FAQs = [
     {
       Q: "Services",
-      A: "If yes, world estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
+      A: "If yes, E-value estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
     },
     {
       Q: "Our Clients ?",
@@ -115,7 +115,7 @@ const ResidentialEstimating = () => {
               </p>
               <br />
               <p>
-                World Estimating is best in the business with seasoned, expert
+                E-value estimating is best in the business with seasoned, expert
                 estimators for residential construction estimating services of
                 your project. After the thorough analysis of plans, we digitally
                 takeoff the quantities using the latest software and consult our
@@ -157,7 +157,7 @@ const ResidentialEstimating = () => {
                 </ul>
               </div>
               <h1 className="text-indigo-900 width-estimate-h1 font-bold text-2xl mt-8 mb-4">
-                WHY CHOOSE WORLD ESTIMATING?
+                WHY CHOOSE E-value estimating?
               </h1>
 
               <p>
@@ -766,7 +766,7 @@ const ResidentialEstimating = () => {
             </div>
 
             <p>
-              At World estimating, residential estimating is the major portion
+              At E-value estimating, residential estimating is the major portion
               of the work that we do, serving North American, Caribbean, and
               Australian regions. In the US, we serve the following markets:
               Newyork, Florida, Oklahoma, Minnesota, Tennessee, Illinois, Texas,
@@ -847,7 +847,7 @@ const ResidentialEstimating = () => {
 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap">

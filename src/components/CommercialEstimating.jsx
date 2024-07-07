@@ -10,7 +10,7 @@ const CommercialEstimating = () => {
   const FAQs = [
     {
       Q: "Services",
-      A: "If yes, world estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
+      A: "If yes, E-value estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
     },
     {
       Q: "Our Clients ?",
@@ -129,7 +129,7 @@ const CommercialEstimating = () => {
                   Most Accurate & Detailed Commercial Estimates
                 </h1>
                 <p>
-                  At world estimating, we provide the most accurate and detailed
+                  At E-value estimating, we provide the most accurate and detailed
                   commercial estimates containing all the details with line item
                   descriptions along with colored marked-up plans.
                 </p>
@@ -378,7 +378,7 @@ const CommercialEstimating = () => {
 
             <ul className="list-disc space-y-6">
               <li>
-                The estimation process at World Estimating starts with a formal
+                The estimation process at E-value estimating starts with a formal
                 meeting of estimators to discuss and identify the scope of work.
                 This also includes the allocation of tasks to trade specialist
                 estimators.
@@ -463,7 +463,7 @@ const CommercialEstimating = () => {
             </div>
 
             <p>
-              World Estimating has experience and exposure to providing
+              E-value estimating has experience and exposure to providing
               construction estimating services in North American, Caribbean, and
               Australian regions. In the US, we have remarkably served the
               following markets: Florida, New York, Massachusetts, South
@@ -562,7 +562,7 @@ const CommercialEstimating = () => {
 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap">

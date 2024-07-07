@@ -110,7 +110,7 @@ const ConcreteEstimating = () => {
           <div>
             {" "}
             <p>
-              World estimating thrives in providing division 3, concrete
+              E-value estimating thrives in providing division 3, concrete
               estimating services for many years to general contracting
               corporations, concrete contractors, home builders, and real estate
               developers. Usually, contractors involved in the work of
@@ -718,7 +718,7 @@ OUR RECENT PROJECTS
 
 <br /><br />
 
-<p>World estimating has successfully delivered thousands of estimates and quantity takeoffs for concrete work projects. Few of our projects are mentioned below:
+<p>E-value estimating has successfully delivered thousands of estimates and quantity takeoffs for concrete work projects. Few of our projects are mentioned below:
 
 </p>
 <br />
@@ -795,7 +795,7 @@ OUR RECENT PROJECTS
 
 <div className="border-2 border-slate-200 p-8">
     <p>
-    World Estimating provides construction estimating services in North American, Caribbean, African, and Australian regions. In the US, we serve in the following markets: Illinois, Georgia, New York, North Carolina, Minnesota, Colorado, Arizona, Indiana, Louisiana, Maryland, Alabama, Washington, New Jersey, California, Connecticut, Oklahoma, Virginia, Oregon, Nebraska, Alaska, Arkansas, Delaware, MinnesotaIdaho, Iowa, Mississippi, Montana, Nevada, Wyoming, New Hampshire, Utah, Florida, Massachusetts, South Carolina, Texas, Missouri, Kentucky, Pennsylvania, Michigan, Tennessee, Ohio, Wisconsin, Vermont, Hawaii.
+    E-value estimating provides construction estimating services in North American, Caribbean, African, and Australian regions. In the US, we serve in the following markets: Illinois, Georgia, New York, North Carolina, Minnesota, Colorado, Arizona, Indiana, Louisiana, Maryland, Alabama, Washington, New Jersey, California, Connecticut, Oklahoma, Virginia, Oregon, Nebraska, Alaska, Arkansas, Delaware, MinnesotaIdaho, Iowa, Mississippi, Montana, Nevada, Wyoming, New Hampshire, Utah, Florida, Massachusetts, South Carolina, Texas, Missouri, Kentucky, Pennsylvania, Michigan, Tennessee, Ohio, Wisconsin, Vermont, Hawaii.
 
 
     </p>
@@ -872,7 +872,7 @@ OUR RECENT PROJECTS
 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap">

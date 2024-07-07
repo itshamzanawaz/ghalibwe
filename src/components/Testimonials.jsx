@@ -19,17 +19,17 @@ const Testimonials = () => {
     {
       name: "Ali Bilal",
       title: "CEO, Company Inc.",
-      text: "In my experience working with World Estimating, they have displayed tremendous skill in the area of cost engineering. I can always count on their professionalism and expert guidance.",
+      text: "In my experience working with E-value estimating, they have displayed tremendous skill in the area of cost engineering. I can always count on their professionalism and expert guidance.",
     },
     {
       name: "Anessa Zainab",
       title: "CEO, Company Inc.",
-      text: "World Estimating has been a valued part of our development team over the last few years. Their cost and quantity estimates are thorough and well documented and are a reliable part of our budgeting process which is critical to our land acquisitions. We fully endorse their construction cost estimating services.",
+      text: "E-value estimating has been a valued part of our development team over the last few years. Their cost and quantity estimates are thorough and well documented and are a reliable part of our budgeting process which is critical to our land acquisitions. We fully endorse their construction cost estimating services.",
     },
     {
       name: "Rohan Akbar",
       title: "CEO, Company Inc.",
-      text: "The company World Estimating LLC is very professional company. As a general contractor I rely on them to ensure plan take offs are of a high standard. I am very confident to recommending World Estimating Services.",
+      text: "The company E-value estimating LLC is very professional company. As a general contractor I rely on them to ensure plan take offs are of a high standard. I am very confident to recommending E-value estimating Services.",
     },
   ];
 

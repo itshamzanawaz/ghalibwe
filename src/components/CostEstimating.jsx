@@ -11,7 +11,7 @@ const CostEstimating = () => {
   const FAQs = [
     {
       Q: "Services",
-      A: "If yes, world estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
+      A: "If yes, E-value estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
     },
     {
       Q: "Our Clients ?",
@@ -66,7 +66,7 @@ const CostEstimating = () => {
               CONSTRUCTION COST ESTIMATING SERVICES
             </h1>
             <p className="text-lg m-6 ml-0">
-              World estimating offers a wide range of construction cost
+              E-value estimating offers a wide range of construction cost
               estimating services and cost management services to cater to the
               needs of the ever-growing construction industry. Being in the
               business for many years, we have reached a point where we totally
@@ -387,7 +387,7 @@ const CostEstimating = () => {
             </h1>
 
             <p>
-              World estimating has successfully provided construction estimating
+              E-value estimating has successfully provided construction estimating
               services in North American, Caribbean, and Australian regions. In
               the US, we have a portfolio of working in the following markets:
               <br />
@@ -465,7 +465,7 @@ const CostEstimating = () => {
                 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap"><span>itshamzanawaz@gmail.com</span></p>

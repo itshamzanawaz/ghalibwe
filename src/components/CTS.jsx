@@ -10,7 +10,7 @@ const CTS = () => {
   const FAQs = [
     {
       Q: "Services",
-      A: "If yes, world estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
+      A: "If yes, E-value estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
     },
     {
       Q: "Our Clients ?",
@@ -68,7 +68,7 @@ const CTS = () => {
               <div>
                 {" "}
                 <p className="text-lg m-6 ml-0">
-                  World Estimating has been in Construction takeoff services for
+                  E-value estimating has been in Construction takeoff services for
                   past 12 years, serving contractors, owners, vendors and
                   developers
                 </p>
@@ -140,7 +140,7 @@ const CTS = () => {
 
             <p>
               Either it is new commercial, residential or industrial
-              construction, our seasoned estimators at World Estimating are
+              construction, our seasoned estimators at E-value estimating are
               having such experience and capability in hand to undertake the
               project of any scope and size. We have estimated projects from
               evaluation of $10 million dollars to several million dollars of
@@ -167,7 +167,7 @@ const CTS = () => {
             </h1>
 
             <p>
-              Our estimators at World Estimating can develop the Preliminary
+              Our estimators at E-value estimating can develop the Preliminary
               takeoffs and estimates for developers before they put time and
               money into a project so that they can act and make decisions
               wisely. We make takeoffs from all schematic, construction drawings
@@ -300,7 +300,7 @@ const CTS = () => {
             </p>
             <br />
             <p>
-              World Estimating is having a proven track record of providing
+              E-value estimating is having a proven track record of providing
               building takeoffs with zip code vendor quoted estimates for 15
               years and our expert estimators provide the right proposals
               related to the missing information and typical costs associated
@@ -323,7 +323,7 @@ const CTS = () => {
             </div>
 
             <h1 className="text-indigo-900 font-bold text-3xl mb-4 mt-8">
-              WHY WORLD ESTIMATING IS THE RIGHT OPTION FOR CONSTRUCTION TAKEOFF
+              WHY E-value estimating IS THE RIGHT OPTION FOR CONSTRUCTION TAKEOFF
               SERVICES?
             </h1>
             <p>
@@ -425,7 +425,7 @@ const CTS = () => {
 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap">

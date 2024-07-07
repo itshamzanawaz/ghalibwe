@@ -39,7 +39,7 @@ const ElectricalEstimating = () => {
     },
     {
       Q: "What does we charge for electrical estimate and takeoff?",
-      A: "World Estimating usually charges $200 on average but it depends upon the scope of the work and size of the project. So, for a better quotation, just send us plans and drawings at info@worldestimating.com or call us at 347 480-1903 to discuss.",
+      A: "E-value estimating usually charges $200 on average but it depends upon the scope of the work and size of the project. So, for a better quotation, just send us plans and drawings at info@worldestimating.com or call us at 347 480-1903 to discuss.",
     },
     {
       Q: "what is included in your electrical cost estimates?",
@@ -94,7 +94,7 @@ const ElectricalEstimating = () => {
           <div>
             {" "}
             <p>
-              World estimating offers a wide range of electrical estimating
+              E-value estimating offers a wide range of electrical estimating
               services, from low voltage to instrumentation and control
               takeoffs, with the knowledge, experience, and dedication that is
               necessary to provide you with the highest accuracy, reliability,
@@ -430,7 +430,7 @@ const ElectricalEstimating = () => {
             <br />
             <div className="border-2 border-slate-200 px-4 py-8">
               <p>
-                At World Estimating, we offer comprehensive electrical
+                At E-value estimating, we offer comprehensive electrical
                 estimating services and specialize in responding quickly to your
                 needs with the capacity to handle all types and sizes of
                 industrial projects. From small factories to large plants and
@@ -634,7 +634,7 @@ const ElectricalEstimating = () => {
             </h1>
             <br />
             <p>
-              Electrical Estimators at World Estimating are competent and
+              Electrical Estimators at E-value estimating are competent and
               professional enough to deliver you quick, accurate, and detailed
               estimates. Our Electrical Estimators are distinctive from other
               estimating companies because they are well-equipped, seasoned,
@@ -898,7 +898,7 @@ const ElectricalEstimating = () => {
             </h1>
             <br />
             <p>
-              World Estimating has hired a productive team of electrical
+              E-value estimating has hired a productive team of electrical
               estimators to deal with electrical estimating services for
               contractors and make it distinctive among other electrical
               estimating companies. They are professional, seasoned,
@@ -1028,7 +1028,7 @@ const ElectricalEstimating = () => {
 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap">

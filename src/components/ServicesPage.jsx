@@ -14,7 +14,7 @@ const ServicesPage = () => {
 
       <div className="flex justify-around flex-wrap">
         <div className="width-flex-sp w-60">
-          World Estimating is offering construction cost estimating and material
+          E-value estimating is offering construction cost estimating and material
           takeoff services to its clients who lived in the United States, United
           Kingdom, Canada, Australia and other countries. You can check our
           profile and popularity on The Blue Book.
@@ -62,7 +62,7 @@ const ServicesPage = () => {
         <img src="https://worldestimating.com/wp-content/uploads/2019/12/Material-Takeoff.jpg" alt="" />
         <h1 className='text-indigo-600 font-semibold text-lg text-center m-8'>Material Takeoff</h1>
         <div className='bg-amber-500 w-14 h-1 mb-8'></div>
-        <p>World Estimating is offering material takeoff and preliminary quantity takeoff estimates for your commercial, residential and industrial construction projects. We are working with the aim to provide the high quality and accurate estimates at affordable rates.
+        <p>E-value estimating is offering material takeoff and preliminary quantity takeoff estimates for your commercial, residential and industrial construction projects. We are working with the aim to provide the high quality and accurate estimates at affordable rates.
 
         .</p>
         </div>

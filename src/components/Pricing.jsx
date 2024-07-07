@@ -7,7 +7,7 @@ const Pricing = () => {
     const FAQs = [
         {
           Q: 'Services',
-          A: "If yes, world estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
+          A: "If yes, E-value estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
         },
         {
           Q: 'Our Clients ?',
@@ -245,7 +245,7 @@ const toggleOpen = (index) => {
               estimator costs huge expenses.
               <br />
               <br />
-              World Estimating offers a dedicated construction estimator who
+              E-value estimating offers a dedicated construction estimator who
               will work for you in our office, provided with 24/7 customer
               support <br />
               <br />
@@ -285,7 +285,7 @@ const toggleOpen = (index) => {
             <div className="bg-slate-200 border-2 m-6 p-6 flex sm:flex-row flex-col justify-center items-center">
               <h1 className="text-indigo-600">
                 What Are You Waiting For? If You Are Planning To Hire A
-                Construction Project Estimator, Then World Estimating Is The
+                Construction Project Estimator, Then E-value estimating Is The
                 Right Option For You To Choose!
               </h1>
               <button className="p-6 bg-yellow-500 m-6">
@@ -338,7 +338,7 @@ const toggleOpen = (index) => {
                   <h1 className='bg-red-600 text-white text-2xl font-semibold p-6'>Call us Today</h1>
                   <div className="bg-slate-200 border-2 border-black space-y-4 p-12">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                  World Estimating</h1>
+                  E-value estimating</h1>
                   <p>+923220264464</p>
                   <p>itshamzanawaz@gmail.com</p>
                   </div>

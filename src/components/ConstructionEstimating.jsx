@@ -10,7 +10,7 @@ const ConstructionEstimating = () => {
   const FAQs = [
     {
       Q: "Services",
-      A: "If yes, world estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
+      A: "If yes, E-value estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
     },
     {
       Q: "Our Clients ?",
@@ -66,7 +66,7 @@ const ConstructionEstimating = () => {
             </h1>
             <div className="flex sm:flex-row flex-col">
               <p className="text-lg m-6 ml-0">
-                World Estimating has been in the construction estimating
+                E-value estimating has been in the construction estimating
                 services business for more than 12 years serving Home Builders,
                 General Contractors, Subcontractors, Engineering firms,
                 Architects, Designers, Investors, Owners, and Developers with
@@ -94,7 +94,7 @@ const ConstructionEstimating = () => {
               Australian Institute of Quantity Surveyors (AIQS).
             </p>
             <h1 className="text-indigo-900 width-estimate-h1 font-bold text-lg mb-4 mt-8">
-              World Estimating Is The One-Stop Solution For All Your
+              E-value estimating Is The One-Stop Solution For All Your
               Construction Estimation Needs!
             </h1>
 
@@ -361,7 +361,7 @@ const ConstructionEstimating = () => {
             <div className="bg-slate-200 flex sm:flex-row flex-col p-8 m-4 items-center">
               <h1 className="text-indigo-900 font-semibold">
                 What Are You Waiting For? If You Are Planning To Hire A
-                Construction Project Estimator, Then World Estimating Is The
+                Construction Project Estimator, Then E-value estimating Is The
                 Right Option For You To Choose!
               </h1>
               <button className="bg-black p-8 hover:opacity-80 text-white">Contact us today</button>
@@ -432,7 +432,7 @@ const ConstructionEstimating = () => {
                 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap"><span>itshamzanawaz@gmail.com</span></p>

@@ -10,7 +10,7 @@ const ConstructionEstimate = () => {
   const FAQs = [
     {
       Q: "Services",
-      A: "If yes, world estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
+      A: "If yes, E-value estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
     },
     {
       Q: "Our Clients ?",
@@ -103,7 +103,7 @@ const ConstructionEstimate = () => {
             <br />
 
             <p>
-              World estimating is a professional cost estimating consulting
+              E-value estimating is a professional cost estimating consulting
               company with a diverse portfolio of commercial, residential, and
               industrial projects serving{" "}
               <strong>
@@ -473,7 +473,7 @@ The scope of our portfolio includes all the kinds of residential, industrial, an
 
                 <div className="bg-slate-200 border-2 border-black space-y-4 p-2">
                   <h1 className="text-indigo-500 font-bold text-2xl">
-                    World Estimating
+                    E-value estimating
                   </h1>
                   <p>+923220264464</p>
                   <p className="text-size-wrap">

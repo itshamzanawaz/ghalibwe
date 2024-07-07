@@ -6,7 +6,7 @@ const FAQ = () => {
   const FAQs = [
     {
       Q: 'Are you exploring reliable “construction estimating services near me”??',
-      A: "If yes, world estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
+      A: "If yes, E-value estimating is here to provide reliable, and cost-efficient construction cost estimating services, construction estimation services, and takeoff services near your locality. We are here with our expert team of construction cost estimators. Further, we have offices in different regions covering North American, Australian, Caribbean, and European regions.",
     },
     {
       Q: 'How can I evaluate your estimating samples?',
@@ -22,7 +22,7 @@ const FAQ = () => {
     },
     {
       Q: 'What is the main estimating software we use?',
-      A: "YWorld Estimating is a reliable platform that delivers accurate and cost-efficient results using different software for estimating. Our labor and material pricing comes from these softwares Plan Swift , RS Means , Blue beam , Quest Estimating , Fast PIPE , Fast DUCT , IMHS Marks System and Trimble.",
+      A: "YE-value estimating is a reliable platform that delivers accurate and cost-efficient results using different software for estimating. Our labor and material pricing comes from these softwares Plan Swift , RS Means , Blue beam , Quest Estimating , Fast PIPE , Fast DUCT , IMHS Marks System and Trimble.",
     },
     {
       Q: 'Is it possible for you to do an estimate if there is a possibility of incomplete drawings?',
@@ -30,7 +30,7 @@ const FAQ = () => {
     },
     {
       Q: 'What if I don’t have certain plans for a construction project?',
-      A: "World estimating is reliable enough to deal with every sort of possibility to assist clients. There’s no need to worry about anything because our expert estimators can estimate the cost of a project easily. They rely on quantities and drawings given by you.",
+      A: "E-value estimating is reliable enough to deal with every sort of possibility to assist clients. There’s no need to worry about anything because our expert estimators can estimate the cost of a project easily. They rely on quantities and drawings given by you.",
     },
     {
       Q: 'What are the types of construction you deal with for estimating?',
