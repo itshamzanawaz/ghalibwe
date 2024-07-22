@@ -34,22 +34,22 @@ const CommercialEstimating = () => {
       services: "Construction-estimating",
     },
     {
-      services: "industrial-estimating",
+      services: "Industrial-Estimating",
     },
     {
       services: "Construction-Takeoff-Service",
     },
     {
-      services: "residential-estimating",
+      services: "Residential-Estimating",
     },
     {
-      services: "commercial-estimating",
+      services: "Commercial-Estimating",
     },
     {
       services: "preliminary-estimate",
     },
     {
-      services: "estimating-consultant",
+      services: "construction-estimating-consultant",
     },
   ];
   const toggleOpen = (index) => {

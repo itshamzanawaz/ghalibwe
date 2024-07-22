@@ -171,7 +171,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link href="/construction-estimating-consultant">
-                    Construction-estimating
+                    Construction-estimating-consultant
                   </Link>
                 </li>
               </ul>
